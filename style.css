@@ -673,22 +673,10 @@ h2 {
     padding: 0 50px;
     font-family: 'Montserrat Alternates', sans-serif;
 }
-/* might not need makes imag very small
-.What-Is-Welness-Well img {
-    max-width: 50%;
-    /* width of images on card 
-} */
+
 
 .What-Is-Welness-Well-paragraph {
     margin: 0 20px;
-}
-
-.dotted-line {
-    width: 170px;
-    border: none;
-    border-top: 5px dotted var(--headline-color);
-    transform: rotate(90deg);
-    margin: 85px auto;
 }
 
 .tilde {
@@ -799,4 +787,249 @@ border-radius: 20px;
 .footer-col .social-links a:hover {
     color: var(--background-color);
     background-color: #ffffff;
+}
+
+
+/*MEDIA QUERIES */
+/* 1200px */
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    .landing-paragraph {
+        font-size: 16px;
+    }
+}
+
+/* 1024px */
+@media (max-width: 1024px) {
+     .landing-heade{
+        font-size: 25px;
+      }
+    .What-Is-Welness-Well-card{
+        font-size: 18px;
+    }
+
+    .exercise-card-paragraph {
+        font-size: 18px;
+    }
+}
+/*decorative line break */
+.line-break {
+        height: 4px;
+    background-color: white;
+    border: none;
+    border-radius: 1px;
+    margin: 25px 0 25px 0;
+}
+/* 955 px */
+@media (max-width: 955px) {
+      .landing-heade{
+        font-size: 25px;
+      }
+    body {
+        text-align: center;
+    }
+
+    .intro {
+        flex-direction: column;
+    }
+
+    .line-break {
+        margin: 20px auto 25px;
+    }
+
+    .landing-cta-wrapper {
+        justify-content: center;
+    }
+
+    main {
+        margin: 75px 0;
+    }
+
+    .landing-graphic img {
+        width: 70%;
+        margin-top: 40px;
+
+    }
+
+    .nav-link {
+        margin: 0 0 0 30px;
+        font-size: 20px;
+    }
+
+    .landing-intro {
+        align-items: center;
+    }
+
+    .landing-text {
+        max-width: 90%;
+    }
+
+    
+        
+    
+}
+
+/* 768px */
+@media (max-width: 768px) {
+
+    .wraper1-user .user-box {
+        margin-right: 20px;
+    }
+}
+    main {
+        margin: 50px 0;
+    }
+
+
+    .landing-header {
+    font-size: 38px;
+    }
+
+    .landing-graphic img {
+        width: 100%;
+        margin-top: 40px;
+
+    }
+
+    .nav-links {
+        display: flex !important;
+    }
+
+    .icon {
+        display: none;
+    }
+
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .What-Is-Welness-Well-card{
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+        flex-direction: column;
+        font-size: 14px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .What-Is-Welness-Well img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .What-Is-Welness-Well-card:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .newsletter-container .landing-paragraph {
+
+        width: 90%;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter-email {
+        width: 100%;
+        max-width: 325px;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-cta {
+        margin: 0;
+    }
+
+    .exercises-container {
+        flex-direction: column;
+    }
+
+    .contact-name-email {
+        flex-basis: 100%;
+        /* make inputs full width at 768px and below */
+    }
+
+
+
+@media (max-width: 767px) {
+    .wraper1-user .user-box {
+        width: 100%;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+       .footer-col {
+        width: 100%;;
+    }
+    .footer ul{
+  display: flex;
+    flex-direction: column;
+   
+}
+
+  .footer-col{
+        width:50%;
+        margin-bottom: 30px;
+    }
+
+    .footer-col ul li:not(:last-child) {
+    padding-right: 0;
+    display: center;
+
+}
+
+}
+
+
+/* 625px */
+@media (max-width: 625px) {
+
+    /* stacks landing content vertically on smaller screens */
+    .landing-cta-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .learn-more {
+        margin-left: 0;
+        /* removes left margin from cta when stacked on smaller screens */
+    }
+    .nav-link{
+        display: none;
+    }
+        #hamburger-icon {
+    
+            display: block;
+          
+        }
+    
+}
+
+
+
+/* 390px */
+@media (max-width: 390px) {
+
+    /* resize nav elements on smaller screens */
+    .nav-link {
+        margin: 4px;
+        font-size: 12px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+  
 }
