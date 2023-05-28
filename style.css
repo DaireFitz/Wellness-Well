@@ -13,10 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
-p{
-      font-family: 'Montserrat Alternates', sans-serif;
-  
-  
+p {
+    font-family: 'Montserrat Alternates', sans-serif;
+
+
 }
 
 /* Define main color variables */
@@ -96,10 +96,11 @@ body {
 .container1 {
     min-height: 0;
 }
+
 /* footer height */
 .content-wrap {
     padding-bottom: 150px;
-    
+
 }
 
 
@@ -129,10 +130,10 @@ body {
 
 /* Styling for the links in the navigation bar */
 .nav-link a {
-  color: var(--headline-color);
-    text-decoration:none;
+    color: var(--headline-color);
+    text-decoration: none;
     font-family: 'Montserrat Alternates', sans-serif;
-    
+
 
 }
 
@@ -156,44 +157,46 @@ body {
 .active-page {
     color: var(--active-font-color-);
 }
- #hamburger-icon {
-     margin: auto 0;
-     display: none;
-     cursor: pointer;
- }
 
- #hamburger-icon div {
-     width: 35px;
-     height: 3px;
-     background-color: white;
-     margin: 6px 0;
-     transition: 0.4s;
- }
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
 
- /* animation for hamburger icon*/
- .open .bar1 {
-     -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-     transform: rotate(-45deg) translate(-6ps, 6px);
- }
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
 
- .open .bar2 {
-     opacity: 0;
- }
+/* animation for hamburger icon*/
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6ps, 6px);
+}
 
- .open .bar3 {
-     -webkit-transform: rotate(45deg) translate(-6px, -8px);
-     transform: rotate(45deg) translate(-6ps, -8px);
- }
+.open .bar2 {
+    opacity: 0;
+}
 
- .open .mobile-menu {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: flex-start;
- }
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6ps, -8px);
+}
+
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 /*below is updated version neeed to tes out furter before removing code*/
 
- .mobile-menu {
+.mobile-menu {
     display: none;
     position: absolute;
     /* top: 50px; */
@@ -202,21 +205,22 @@ body {
     width: 100%;
     background-color: var(--hover-color);
     border-radius: 10px;
-     transition: 0.5s;
+    transition: 0.5s;
 
 }
 
- .mobile-menu li {
+.mobile-menu li {
     list-style: none;
-padding: 8px 12px;
- }
-.nav-link-active-page-mobile a{
+    padding: 8px 12px;
+}
+
+.nav-link-active-page-mobile a {
     color: lavender;
     text-decoration: none;
 }
 
-.nav-link-mobile a{
-  color: var(--background-color);
+.nav-link-mobile a {
+    color: var(--background-color);
     text-decoration: none;
     font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -224,7 +228,7 @@ padding: 8px 12px;
 /* Styling for navigation links on hover */
 .nav-link-mobile a:hover {
     color: var(--headline-color);
-     transition: 0.5s;
+    transition: 0.5s;
 }
 
 
@@ -258,7 +262,7 @@ padding: 8px 12px;
 /* Styling for the landing page paragraph */
 .landing-paragraph {
     font-size: 20px;
- font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     max-width: 100%;
     color: white
 }
@@ -355,14 +359,14 @@ h2 {
 
 /* banner image for landing page*/
 .banner {
-    background-image: url(assets/images/killiney-beach.jpg.);
+    background-image: url(assets/images/killiney-beach.jpg);
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-      background-position: center;
+    background-position: center;
     overflow: hidden;
     object-fit: contain;
     background-size: cover;
@@ -414,6 +418,7 @@ h2 {
     flex: 1;
     font-family: 'Montserrat Alternates', sans-serif;
 }
+
 /* -----------Testimonials----------------*/
 .wraper1-user {
     display: flex;
@@ -446,7 +451,7 @@ h2 {
     font-size: 17px;
     font-weight: 600;
     text-align: center;
-   
+
 }
 
 .wraper1-user .user-box .info .job {
@@ -541,7 +546,7 @@ h2 {
 
 /* overlay to make text on exercise card readable */
 .card-overlay {
-      position: absolute;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
@@ -646,6 +651,7 @@ h2 {
     text-decoration: none;
     color: #333;
 }
+
 /* Styling for the navigation links list */
 .nav-links {
     display: flex;
@@ -663,7 +669,7 @@ h2 {
 }
 
 /* card for main content on home/about */
-.What-Is-Welness-Well-card{
+.What-Is-Welness-Well-card {
     background-color: var(--card-color);
     height: 525px;
     border-radius: 45px;
@@ -689,10 +695,11 @@ h2 {
     margin: 85px auto;
     color: white;
 }
-#hamburger-icon{
+
+#hamburger-icon {
     margin: auto 0;
     display: none;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 
@@ -712,10 +719,11 @@ h2 {
 
 /* 1024px */
 @media (max-width: 1024px) {
-     .landing-heade{
+    .landing-heade {
         font-size: 25px;
-      }
-    .What-Is-Welness-Well-card{
+    }
+
+    .What-Is-Welness-Well-card {
         font-size: 18px;
     }
 
@@ -723,19 +731,22 @@ h2 {
         font-size: 18px;
     }
 }
+
 /*decorative line break */
 .line-break {
-        height: 4px;
+    height: 4px;
     background-color: white;
     border: none;
     border-radius: 1px;
     margin: 25px 0 25px 0;
 }
+
 /* 955 px */
 @media (max-width: 955px) {
-      .landing-heade{
+    .landing-heade {
         font-size: 25px;
-      }
+    }
+
     body {
         text-align: center;
     }
@@ -776,8 +787,6 @@ h2 {
     }
 
     .
-        
-    
 }
 
 /* 768px */
@@ -789,7 +798,7 @@ h2 {
 
 
     .landing-header {
-    font-size: 38px;
+        font-size: 38px;
     }
 
     .landing-graphic img {
@@ -811,7 +820,7 @@ h2 {
         font-size: 24px;
     }
 
-    .What-Is-Welness-Well-card{
+    .What-Is-Welness-Well-card {
         height: auto;
         border-radius: 20px;
         box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
@@ -830,6 +839,7 @@ h2 {
     .What-Is-Welness-Well-card:nth-of-type(2) {
         flex-direction: column-reverse;
     }
+
     h2 {
         font-size: 24px;
     }
@@ -863,78 +873,81 @@ h2 {
         /* make inputs full width at 768px and below */
     }
 
-   
-/* 625px */
-@media (max-width: 625px) {
 
-    /* stacks landing content vertically on smaller screens */
-    .landing-cta-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
+    /* 625px */
+    @media (max-width: 625px) {
 
-    .learn-more {
-        margin-left: 0;
-        /* removes left margin from cta when stacked on smaller screens */
-    }
-    .nav-link{
-        display: none;
-    }
-        #hamburger-icon {
-    
-            display: block;
-          
+        /* stacks landing content vertically on smaller screens */
+        .landing-cta-wrapper {
+            flex-direction: column;
+            align-items: center;
         }
-    
-}
 
+        .learn-more {
+            margin-left: 0;
+            /* removes left margin from cta when stacked on smaller screens */
+        }
 
+        .nav-link {
+            display: none;
+        }
 
-/* 390px */
-@media (max-width: 390px) 
-{
+        #hamburger-icon {
 
-    /* resize nav elements on smaller screens */
-    .nav-link {
-        margin: 4px;
-        font-size: 12px;
+            display: block;
+
+        }
+
     }
 
-    .logo {
-        font-size: 18px;
+
+
+    /* 390px */
+    @media (max-width: 390px) {
+
+        /* resize nav elements on smaller screens */
+        .nav-link {
+            margin: 4px;
+            font-size: 12px;
+        }
+
+        .logo {
+            font-size: 18px;
+        }
+
     }
-  
-}
 }
 
-.footer ul{
-/*padding: 20px 0;*/
-list-style: none;
+.footer ul {
+    /*padding: 20px 0;*/
+    list-style: none;
     list-style: none;
     display: flex;
     /* padding: 5px; */
     padding: 8px 12px;
 }
 
-.footer-container{
-/*max-width: 1170px;*/
-background-color:var(--card-color);
-margin: auto;
-border-radius: 20px;
-}
-.row-footer{
-    display: flex;
-    flex-wrap:wrap;
+.footer-container {
+    /*max-width: 1170px;*/
+    background-color: var(--card-color);
+    margin: auto;
+    border-radius: 20px;
 }
 
-.footer-col{
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
     width: 50%;
     padding: 0 50px;
-      font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
-.footer-col h4{
+
+.footer-col h4 {
     font-size: 18px;
-    color:var(--font-color);
+    color: var(--font-color);
     text-transform: capitalize;
     margin-bottom: 20px;
     font-weight: 500;
@@ -942,7 +955,8 @@ border-radius: 20px;
     padding-top: 10px;
 
 }
-.footer-col h4::before{
+
+.footer-col h4::before {
     content: '';
     position: absolute;
     left: 0;
@@ -951,8 +965,8 @@ border-radius: 20px;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
-      font-family: 'Montserrat Alternates', sans-serif;
-   
+    font-family: 'Montserrat Alternates', sans-serif;
+
 }
 
 .footer-col ul li:not(:last-child) {
@@ -965,10 +979,10 @@ border-radius: 20px;
     text-transform: capitalize;
     text-decoration: none;
     font-weight: 300;
-    color:#333;
+    color: #333;
     display: block;
     transition: all 0.3s ease;
-        
+
 }
 
 .footer-col ul.social-links {
@@ -979,13 +993,16 @@ border-radius: 20px;
     padding: 0;
     margin: 0;
 }
-.footer-col ul.social-links li{
+
+.footer-col ul.social-links li {
     margin-right: 10px;
 }
+
 .footer-col ul li a:hover {
     color: var(--background-color);
     padding-left: 8px;
 }
+
 .footer-col .social-links a {
     display: flex;
     justify-content: center;
@@ -995,7 +1012,7 @@ border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
     border-radius: 50%;
-    color:#333;
+    color: #333;
     transition: all 0.5s ease;
 }
 
@@ -1005,25 +1022,28 @@ border-radius: 20px;
 }
 
 
-@media(max-width: 767px){
-    .footer-col{
-        width:50%;
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
         margin-bottom: 30px;
     }
 
     .footer-col ul li:not(:last-child) {
-    padding-right: 0;
-    display: center;
+        padding-right: 0;
+        display: center;
+    }
 }
-}
+
 @media(max-width: 767px) {
     .footer-col {
-        width: 100%;;
+        width: 100%;
+        ;
     }
-    .footer ul{
-  display: flex;
-    flex-direction: column;
-   
-}
+
+    .footer ul {
+        display: flex;
+        flex-direction: column;
+
+    }
 
 }
