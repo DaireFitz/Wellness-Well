@@ -1,4 +1,4 @@
-/* CSS */
+/* CSS reset */
 
 /* Normalize styles */
 * {
@@ -14,7 +14,9 @@ html {
 }
 
 p{
-    font-family: 'Montserrat Alternates', sans-serif;
+      font-family: 'Montserrat Alternates', sans-serif;
+  
+  
 }
 
 /* Define main color variables */
@@ -24,6 +26,8 @@ p{
     --font-color: #3A3b3b;
     --card-color: #f7F2E7;
     --headline-color: #fff;
+    --light-beige: #fcd3a3;
+    --light-ochre: #d8d3cd;
     --medium-ochre: #797a7e;
     --input-field: #fff;
     --active-font-color-: #797a7e;
@@ -92,19 +96,15 @@ body {
 .container1 {
     min-height: 0;
 }
-
+/* footer height */
 .content-wrap {
     padding-bottom: 150px;
-    /* footer height */
+    
 }
 
 
 
-/* Styling for the navigation links list */
-.nav-links {
-    display: flex;
-    list-style: none;
-}
+
 
 /* Styling for individual navigation link items */
 .nav-link {
@@ -397,7 +397,7 @@ h2 {
 
 /* controls image width in intro section */
 .landing-graphic img {
-    width: 90%;
+    width: 100%;
 }
 
 /* styles for top left nav logo */
@@ -483,11 +483,16 @@ h2 {
     border: 2px solid #fff;
 }
 
-
-
-.wraper1-user .user-box:last-child {
-    margin-right: 0;
+@media (max-width: 767px) {
+    .wraper1-user .user-box {
+        width: 100%;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+
+
 
 /* exercise cards on exercises page */
 .exercise-card {
@@ -641,10 +646,9 @@ h2 {
     text-decoration: none;
     color: #333;
 }
-
+/* Styling for the navigation links list */
 .nav-links {
     display: flex;
-    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -674,7 +678,6 @@ h2 {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-
 .What-Is-Welness-Well-paragraph {
     margin: 0 20px;
 }
@@ -692,102 +695,7 @@ h2 {
     cursor:pointer;
 }
 
-.footer ul{
-/*padding: 20px 0;*/
-list-style: none;
-    list-style: none;
-    display: flex;
-    /* padding: 5px; */
-    padding: 8px 12px;
-}
 
-.footer-container{
-/*max-width: 1170px;*/
-background-color:var(--card-color);
-margin: auto;
-border-radius: 20px;
-}
-.row-footer{
-    display: flex;
-    flex-wrap:wrap;
-}
-
-.footer-col{
-    width: 50%;
-    padding: 0 50px;
-      font-family: 'Montserrat Alternates', sans-serif;
-}
-.footer-col h4{
-    font-size: 18px;
-    color:var(--font-color);
-    text-transform: capitalize;
-    margin-bottom: 20px;
-    font-weight: 600;
-    position: relative;
-    padding-top: 10px;
-
-}
-.footer-col h4::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: var(--hover-color);
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-      font-family: 'Montserrat Alternates', sans-serif;
-   
-}
-
-.footer-col ul li:not(:last-child) {
-    margin-bottom: 10px;
-    padding-right: 60px;
-}
-
-.footer-col ul li a {
-    font-size: 16px;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-weight: 300;
-    color:#333;
-    display: block;
-    transition: all 0.3s ease;
-        
-}
-
-.footer-col ul.social-links {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.footer-col ul.social-links li{
-    margin-right: 10px;
-}
-.footer-col ul li a:hover {
-    color: var(--background-color);
-    padding-left: 8px;
-}
-.footer-col .social-links a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    background-color: rgba(255, 255, 255, 0.2);
-    text-align: center;
-    border-radius: 50%;
-    color:#333;
-    transition: all 0.5s ease;
-}
-
-.footer-col .social-links a:hover {
-    color: var(--background-color);
-    background-color: #ffffff;
-}
 
 
 /*MEDIA QUERIES */
@@ -867,7 +775,7 @@ border-radius: 20px;
         max-width: 90%;
     }
 
-    
+    .
         
     
 }
@@ -875,10 +783,6 @@ border-radius: 20px;
 /* 768px */
 @media (max-width: 768px) {
 
-    .wraper1-user .user-box {
-        margin-right: 20px;
-    }
-}
     main {
         margin: 50px 0;
     }
@@ -926,7 +830,6 @@ border-radius: 20px;
     .What-Is-Welness-Well-card:nth-of-type(2) {
         flex-direction: column-reverse;
     }
-
     h2 {
         font-size: 24px;
     }
@@ -960,39 +863,7 @@ border-radius: 20px;
         /* make inputs full width at 768px and below */
     }
 
-
-
-@media (max-width: 767px) {
-    .wraper1-user .user-box {
-        width: 100%;
-        max-width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-       .footer-col {
-        width: 100%;;
-    }
-    .footer ul{
-  display: flex;
-    flex-direction: column;
    
-}
-
-  .footer-col{
-        width:50%;
-        margin-bottom: 30px;
-    }
-
-    .footer-col ul li:not(:last-child) {
-    padding-right: 0;
-    display: center;
-
-}
-
-}
-
-
 /* 625px */
 @media (max-width: 625px) {
 
@@ -1020,7 +891,8 @@ border-radius: 20px;
 
 
 /* 390px */
-@media (max-width: 390px) {
+@media (max-width: 390px) 
+{
 
     /* resize nav elements on smaller screens */
     .nav-link {
@@ -1032,4 +904,126 @@ border-radius: 20px;
         font-size: 18px;
     }
   
+}
+}
+
+.footer ul{
+/*padding: 20px 0;*/
+list-style: none;
+    list-style: none;
+    display: flex;
+    /* padding: 5px; */
+    padding: 8px 12px;
+}
+
+.footer-container{
+/*max-width: 1170px;*/
+background-color:var(--card-color);
+margin: auto;
+border-radius: 20px;
+}
+.row-footer{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.footer-col{
+    width: 50%;
+    padding: 0 50px;
+      font-family: 'Montserrat Alternates', sans-serif;
+}
+.footer-col h4{
+    font-size: 18px;
+    color:var(--font-color);
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-top: 10px;
+
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: var(--hover-color);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+      font-family: 'Montserrat Alternates', sans-serif;
+   
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+    padding-right: 60px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color:#333;
+    display: block;
+    transition: all 0.3s ease;
+        
+}
+
+.footer-col ul.social-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-col ul.social-links li{
+    margin-right: 10px;
+}
+.footer-col ul li a:hover {
+    color: var(--background-color);
+    padding-left: 8px;
+}
+.footer-col .social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border-radius: 50%;
+    color:#333;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: var(--background-color);
+    background-color: #ffffff;
+}
+
+
+@media(max-width: 767px){
+    .footer-col{
+        width:50%;
+        margin-bottom: 30px;
+    }
+
+    .footer-col ul li:not(:last-child) {
+    padding-right: 0;
+    display: center;
+}
+}
+@media(max-width: 767px) {
+    .footer-col {
+        width: 100%;;
+    }
+    .footer ul{
+  display: flex;
+    flex-direction: column;
+   
+}
+
 }
