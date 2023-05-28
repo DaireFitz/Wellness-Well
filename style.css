@@ -1,0 +1,706 @@
+/* CSS */
+
+/* Normalize styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add antialiasing to fonts & Enable smooth scrolling */
+html {
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Define main color variables */
+:root {
+    --background-color: #5b978f;
+    --highlight-color: #f7f2e7;
+    --font-color: #3A3b3b;
+    --card-color: #f7F2E7;
+    --headline-color: #fff;
+    --medium-ochre: #797a7e;
+    --input-field: #fff;
+    --active-font-color-: #797a7e;
+    --hover-color: #b5e0db;
+}
+
+
+/* Create a fade-in animation */
+.fade {
+    opacity: 0;
+    animation: fadeIn 4s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/* Styling for navigation bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid var(--headline-color);
+    /* Adds a 1px border at the bottom of the navigation bar */
+}
+
+
+/* Styling for Wellness Well logo on the top left of the navigation bar */
+.logo {
+    font-size: 48px;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--headline-color);
+}
+
+/* Body section */
+body {
+    background-color: var(--background-color);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Container styles */
+.container,
+.container1 {
+    width: min(80%, 1440px);
+    /* Width will be 80% or 1440px max */
+    margin: auto;
+    /* Center container */
+    min-height: 100vh;
+    /* Needed to position footer at bottom of page */
+    position: relative;
+}
+
+/* Set minimum height for container1 */
+.container1 {
+    min-height: 0;
+}
+
+.content-wrap {
+    padding-bottom: 150px;
+    /* footer height */
+}
+
+
+
+/* Styling for the navigation links list */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+/* Styling for individual navigation link items */
+.nav-link {
+    margin: 0 0 0 60px;
+    /* Adds a margin of 60 pixels on the left of each navigation link */
+    font-size: 24px;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+/* Styling for navigation links on hover */
+.nav-link:hover {
+    color: white;
+}
+
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Styling for the links in the navigation bar */
+.nav-link a {
+  color: var(--headline-color);
+    text-decoration:none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+
+}
+
+/* Styling for the underline animation on hover for the navigation links */
+.nav-link::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #d1fffa;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+/* Styling for the underline animation on hover for the navigation links */
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Styling for the active page highlight in the navigation bar */
+.active-page {
+    color: var(--active-font-color-);
+}
+ #hamburger-icon {
+     margin: auto 0;
+     display: none;
+     cursor: pointer;
+ }
+
+ #hamburger-icon div {
+     width: 35px;
+     height: 3px;
+     background-color: white;
+     margin: 6px 0;
+     transition: 0.4s;
+ }
+
+ /* animation for hamburger icon*/
+ .open .bar1 {
+     -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+     transform: rotate(-45deg) translate(-6ps, 6px);
+ }
+
+ .open .bar2 {
+     opacity: 0;
+ }
+
+ .open .bar3 {
+     -webkit-transform: rotate(45deg) translate(-6px, -8px);
+     transform: rotate(45deg) translate(-6ps, -8px);
+ }
+
+ .open .mobile-menu {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+ }
+/*below is updated version neeed to tes out furter before removing code*/
+
+ .mobile-menu {
+    display: none;
+    position: absolute;
+    /* top: 50px; */
+    left: 0;
+    /* height: calc(100vh - 50px); */
+    width: 100%;
+    background-color: var(--hover-color);
+    border-radius: 10px;
+     transition: 0.5s;
+
+}
+
+ .mobile-menu li {
+    list-style: none;
+padding: 8px 12px;
+ }
+.nav-link-active-page-mobile a{
+    color: lavender;
+    text-decoration: none;
+}
+
+.nav-link-mobile a{
+  color: var(--background-color);
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Styling for navigation links on hover */
+.nav-link-mobile a:hover {
+    color: var(--headline-color);
+     transition: 0.5s;
+}
+
+
+
+/* Styling for the landing page h1 */
+.landing-header {
+    font-size: 48px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: var(--headline-color);
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    /* Adds a transition effect on hover for the landing page header */
+}
+
+/* Styling for the landing page h1 on hover */
+.landing-header:hover {
+    transform: scale(1.2);
+    /* Enlarges the landing page header on hover */
+}
+
+/* Styling for the landing page introduction section */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 125px 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Styling for the landing page paragraph */
+.landing-paragraph {
+    font-size: 20px;
+ font-family: 'Montserrat Alternates', sans-serif;
+    max-width: 100%;
+    color: white
+}
+
+/* Styling for the positioning of the landing page text */
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+}
+
+/* Main CTA button */
+
+/* Styles for the main call-to-action (CTA) button */
+.main-cta {
+    background-color: var(--highlight-color);
+    color: var(--background-color);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 22.5px;
+    border: 1px solid var(--background-color);
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-family: 'Montserrat Alternates', sans-serif;
+    /* Enlarge CTA button on hover */
+}
+
+/* Styles for the main CTA button when it is being hovered over */
+.main-cta:hover {
+    transform: scale(1.05);
+    /* Enlarge CTA button on hover */
+}
+
+/* secondary CTA button */
+.secondary-cta {
+    background-color: var(--background-color);
+    color: var(--headline-color);
+    border: 1px solid var(--headline-color);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 22.5px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    /* enlarge CTA button on hover */
+}
+
+.secondary-cta:hover {
+    transform: scale(1.05);
+    /* enlarge CTA button on hover */
+}
+
+/*style for "Jump in" main CTA */
+.jump-in {
+    width: 165px;
+    margin-top: 20px;
+}
+
+/* style for "Learn more" secondary CTA */
+.learn-more {
+    width: 165px;
+    margin: 20px 0 0 10px;
+    font-weight: normal;
+}
+
+/* wrapper for CTA buttons */
+.landing-cta-wrapper {
+    display: flex;
+}
+
+/* styles for H2 tag */
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+/* banner image for landing page*/
+.banner {
+    background-image: url(assets/images/killiney-beach.jpg.);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+      background-position: center;
+    overflow: hidden;
+    object-fit: contain;
+    background-size: cover;
+}
+
+
+/* styles for H2 tag within banner */
+.banner-h2 {
+    opacity: 0;
+    animation: fadeIn 4s ease-in-out forwards;
+    font-family: 'Alex Brush';
+}
+
+/* keyframe animation for banner H2 tag */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* styles for graphic in landing/intro */
+.landing-graphic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* controls image width in intro section */
+.landing-graphic img {
+    width: 90%;
+}
+
+/* styles for top left nav logo */
+.logo a {
+    text-decoration: none;
+    color: var(--headline-color);
+    font-family: 'Alex Brush';
+}
+
+/* styles for landing/intro section */
+.landing-intro {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+/* -----------Testimonials----------------*/
+.wraper1-user {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.wraper1-user .user-box {
+    border-radius: 20px;
+    padding: 25px;
+    width: calc(33.33% - 20px);
+    box-shadow: 3px 3px 12px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--card-color);
+    position: relative;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.wraper1-user .user-box .content-user {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wraper1-user .user-box .info .name {
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+   
+}
+
+.wraper1-user .user-box .info .job {
+    color: var(--background-color);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wraper1-user .user-box .info .stars {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.wraper1-user .user-box .info .stars i {
+    color: var(--background-color);
+}
+
+.wraper1-user .user-box .content-user .user-image {
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background-color: var(--background-color);
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.wraper1-user .user-box .content-user .user-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+
+
+.wraper1-user .user-box:last-child {
+    margin-right: 0;
+}
+
+/* exercise cards on exercises page */
+.exercise-card {
+    border-radius: 20px;
+    overflow: hidden;
+    flex: 1 1;
+    box-shadow: 3px 3px 12px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--card-color);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/*-------------Tutotials--------------*/
+
+/* container for each category of exercises */
+.exercises-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* exercise cards on exercises page */
+.exercise-card {
+    border-radius: 20px;
+    overflow: hidden;
+    flex: 1 1;
+    box-shadow: 3px 3px 12px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--card-color);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.exercise-card:hover {
+    transform: scale(1.03);
+    /* make card bigger on hover */
+}
+
+
+/* hero image for each exercise card */
+.exercise-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* overlay to make text on exercise card readable */
+.card-overlay {
+      position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* opacity: 0; */
+    font-size: 24px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background: linear-gradient(to top, #5b978f 0%, rgba(0, 0, 0, 0) 100%);
+    color: #fff;
+    transition: opacity 0.8s ease-in-out;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.card-overlay:before {
+    content: attr(data-hover);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+    color: #fff;
+}
+
+.card-overlay::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.exercise-card {
+    position: relative;
+    border-bottom: 1px dotted black;
+}
+
+.exercise-card:hover .card-overlay,
+.exercise-card:hover .exercise-card-paragraph:before {
+    opacity: 1;
+}
+
+.exercise-card:not(:hover) .card-overlay,
+.exercise-card:not(:hover) .exercise-card-paragraph:before {
+    opacity: 0;
+}
+
+
+/* target top group of exercises and provide margin below for spacing */
+.exercises-group:nth-of-type(2) {
+    margin-bottom: 60px;
+}
+
+/* embedded video on exercises page */
+.exercise-video {
+    min-width: 100%;
+    aspect-ratio: 16/9;
+    border: none;
+}
+
+/* btn to bring users back to exercises page */
+.exercise-back-btn {
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    margin: 30px 0;
+    display: inline-block;
+    color: var(--headline-color);
+    font-size: 18px;
+}
+
+/* container for exercise content, video + description */
+.exercise-content {
+    margin: 0;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 10px 10px;
+}
+
+/* text description under exercise video */
+.exercise-content-description {
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+
+/* Desktop Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+}
+
+.brand a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    /*color: #333;*/
+}
+
+/* card for main content on home/about */
+.What-Is-Welness-Well-card{
+    background-color: var(--card-color);
+    height: 525px;
+    border-radius: 45px;
+    border: none;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+    display: flex;
+    font-size: 24px;
+    color: var(--font-color);
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+/* might not need makes imag very small
+.What-Is-Welness-Well img {
+    max-width: 50%;
+    /* width of images on card 
+} */
+
+.What-Is-Welness-Well-paragraph {
+    margin: 0 20px;
+}
+
+.dotted-line {
+    width: 170px;
+    border: none;
+    border-top: 5px dotted var(--headline-color);
+    transform: rotate(90deg);
+    margin: 85px auto;
+}
+
+.tilde {
+    width: 170px;
+    letter-spacing: -19px;
+    transform: rotate(90deg);
+    margin: 85px auto;
+    color: white;
+}
+#hamburger-icon{
+    margin: auto 0;
+    display: none;
+    cursor:pointer;
+}
+
