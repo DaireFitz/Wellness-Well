@@ -359,7 +359,7 @@ h2 {
 
 /* banner image for landing page*/
 .banner {
-    background-image: url(assets/images/killiney-beach.jpg);
+    background-image: url('assets/images/killiney-beach.jpg');
     height: 100vh;
     display: flex;
     flex-direction: column;
