@@ -6,4 +6,3 @@ var contentWrapper = document.querySelector('.content-wrapper');
   footer.classList.toggle('move-down');
 }
 
-
