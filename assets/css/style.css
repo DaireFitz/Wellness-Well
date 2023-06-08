@@ -99,7 +99,7 @@ body {
 
 /* footer height */
 .content-wrap {
-    padding-bottom: 150px;
+    padding-bottom: 270px;
 
 }
 
@@ -203,7 +203,7 @@ body {
     left: 0;
     /* height: calc(100vh - 50px); */
     width: 100%;
-    background-color: var(--hover-color);
+    background-color: var(--card-color);
     border-radius: 10px;
     transition: 0.5s;
 
@@ -359,7 +359,7 @@ h2 {
 
 /* banner image for landing page*/
 .banner {
-    background-image: url('assets/images/killiney-beach.jpg');
+    background-image:url(assets/images/killiney-beach.jpg);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -616,13 +616,24 @@ h2 {
 
 /* btn to bring users back to tutorial page */
 .tutorial-back-btn {
-    text-decoration: none;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    margin: 30px 0;
-    display: inline-block;
+    background-color: var(--background-color);
     color: var(--headline-color);
-    font-size: 18px;
+    border: 1px solid var(--headline-color);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 22.5px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin: 40px;
+    max-width: 20%;
 }
 
 /* container for tutorial content, video + description */
@@ -734,6 +745,11 @@ h2 {
     .tutorial-card-paragraph {
         font-size: 18px;
     }
+    .tutorial-back-btn {
+
+    max-width: fit-content;
+
+    }
 }
 
 /*decorative line break */
@@ -747,6 +763,12 @@ h2 {
 
 /* 955 px */
 @media (max-width: 955px) {
+
+    .tutorial-back-btn {
+
+    max-width: fit-content;
+
+    }
     .landing-heade {
         font-size: 25px;
     }
@@ -875,7 +897,7 @@ h2 {
         /* make inputs full width at 768px and below */
     }
 
-
+}
     /* 625px */
     @media (max-width: 625px) {
 
@@ -899,9 +921,12 @@ h2 {
             display: block;
 
         }
+        .tutorial-back-btn {
+
+    max-width: fit-content;
 
     }
-
+    }
 
 
     /* 390px */
@@ -918,7 +943,12 @@ h2 {
         }
 
     }
-}
+
+.tutorial-back-btn {
+
+    max-width: fit-content;
+
+    }
 
 .footer ul {
     /*padding: 20px 0;*/
@@ -934,6 +964,7 @@ h2 {
     background-color: var(--card-color);
     margin: auto;
     border-radius: 20px;
+     transition: transform 0.3s ease;
 }
 
 .row-footer {
@@ -1039,7 +1070,6 @@ h2 {
 @media(max-width: 767px) {
     .footer-col {
         width: 100%;
-        ;
     }
 
     .footer ul {
@@ -1049,3 +1079,80 @@ h2 {
     }
 
 }
+
+
+/*-----------about test---------------*/
+   .container-2 {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 100px;
+        }
+
+        .container-2 .image,
+        .container-2 .text {
+            width: calc(50% - 10px);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container-2 .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 0;
+        }
+
+        .text h2 {
+            margin-bottom: 10px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container-2 {
+                flex-direction: column;
+            }
+
+            .container-2 .image,
+            .container-2 .text {
+                width: 100%;
+            }
+        }
+.contact-form{
+    padding-top: 50px;
+}
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-family: 'Montserrat Alternates', sans-serif;
+                border-radius: 22.5px;
+                    border: none;
+}
+
+
+        .contact-form button {
+    padding: 10px 20px;
+    color: var(--font-color);
+    border: none;
+    cursor: pointer;
+    background: var(--card-color);
+    font-family: 'Montserrat Alternates', sans-serif;
+        border-radius: 22.5px;
+        font-weight: bold;
+}
+
+       .content-wrapper {
+  transition: transform 0.3s ease;
+}
+.move-down {
+  transform: translateY(120px);
+}
+        .footer{
+            padding-top: 20px;
+     transition: transform 0.3s ease;
+        }
