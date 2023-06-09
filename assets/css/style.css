@@ -1125,9 +1125,17 @@ h2 {
     font-size: large;
 }
 
-       .conntainer-2, h2 {
+       .conntainer-2  {
        margin-bottom: 10px;
+       
 
+        }
+  .about-h2{
+      color: var(--background-color);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
         }
 
         @media screen and (max-width: 768px) {
