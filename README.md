@@ -4,8 +4,14 @@ Wellness Well is a website that provides wellness tips and resources to support 
 
 ## Table of Contents
 
-- [About](#about)
+- [About](#about) -[Project Background](#Project-Background)
 - [Features](#features)
+- [User Experience](#User-Experience)
+  --[Desgin](#Desgin)
+  --[Site Structure](#Site-Structure)
+  --[Personas](#Personasa)
+  --[Features](#Features)
+
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -19,7 +25,8 @@ Wellness Well is a comprehensive wellness platform that aims to help individuals
 
 The website features an intuitive and user-friendly interface, making it easy for visitors to navigate through different sections and access the content they are interested in. It also provides a responsive design, ensuring a seamless experience across various devices.
 
-##Project Background
+## Project Background
+
 The project aims to develop a responsive website for a photography portfolio. The purpose of the website is to showcase the photographer's work and attract potential clients. The motivation behind this project is to provide a visually appealing platform that effectively highlights the photographer's skills and talent.
 
 The website will address the challenge of creating an immersive and engaging experience for visitors, allowing them to explore the photographer's portfolio and easily contact them for inquiries or bookings. Throughout the development process, the focus will be on creating a user-friendly and visually stunning website that aligns with the photographer's brand identity.
@@ -31,23 +38,21 @@ To ensure a seamless user experience, the website will employ a user-centered de
 
 The website will incorporate features such as a responsive design to ensure optimal viewing on different devices, a clear and intuitive navigation menu, and a portfolio section with visually appealing image galleries. These features aim to enhance the overall user experience and facilitate effortless exploration of the photographer's portfolio.
 
-##Design
-The design of the website will focus on creating a visually striking and cohesive aesthetic that complements the photographer's style and work. The color palette will consist of muted tones and subtle accents to allow the photographs to take center stage. The typography will be clean and elegant, ensuring readability and visual consistency.
+## Design
+
+The design of the website will focus on creating a visually striking and cohesive aesthetic that complements. The color palette will consist of natiral muted tones to portray nature and relaxation. The typography will be clean and elegant, ensuring readability and visual consistency.
 
 The website will adhere to design principles that prioritize accessibility and responsiveness. It will be optimized for various screen sizes and resolutions, ensuring a consistent and enjoyable experience across different devices. The use of appropriate contrast, alt text for images, and scalable layouts will contribute to an inclusive and accessible design.
 
-Design software such as Adobe Photoshop and Sketch will be utilized to create mockups and design assets. These tools will enable the development of visually appealing layouts and ensure that the website design aligns with the photographer's branding and vision.
+## Site Structure
 
-##Site Structure
-The website will consist of several main sections: Home, Portfolio, About, Services, and Contact. The Home section will serve as the landing page, providing an introduction to the photographer and featuring selected works. The Portfolio section will showcase different categories of photographs, allowing visitors to explore various projects and collections.
+The website will consist of several main sections: Home, About, and Contact. The Home section will serve as the landing page, providing an introduction to Welness Well .
 
-The About section will provide background information about the photographer, including their experience, skills, and artistic approach. The Services section will outline the types of photography services offered and any specialized areas of expertise.
+The About section will provide background information about the owner , including their experience, skills, and their approach.
 
 To facilitate easy navigation, a clear and intuitive menu system will be implemented. The menu will be present on all pages, allowing users to access different sections of the website with ease. Additionally, interactive elements such as image sliders and hover effects will be incorporated to enhance the overall user experience and engagement.
 
-Please note that the above sections are just an example based on the information and code provided. You can further expand and customize each section according to your specific project requirements and details.
-
-Certainly! Here's an example of how you can write the "Technologies Used" section in the README file based on the information and code you provided:
+Wellness Well also has a seperate pages for each Exercise. There are currently nine of these pages. A "Back" button allows the user to go back yto exactly where the were on the previou page allowing for intuitive navigation.
 
 ## Features
 
