@@ -2,9 +2,10 @@
 
 Wellness Well is a website that provides wellness tips and resources to support a healthy and fulfilling lifestyle. Whether you're looking for meditation techniques, fitness tips, healthy recipes, or mental well-being strategies, Wellness Well has got you covered.
 
-## Table of Contents
+# Table of Contents
 
-- [About](#about) -[Project Background](#Project-Background)
+- [About](#about) 
+- [Project Background](##Project-Background)
 - [Features](#features)
 - [User Experience](#User-Experience)
   --[Desgin](#Desgin)
@@ -19,7 +20,7 @@ Wellness Well is a website that provides wellness tips and resources to support 
 - [Technology Used](#Technology-Used)
 -
 
-## About
+# About
 
 Wellness Well is a comprehensive wellness platform that aims to help individuals live their best lives. It offers a wealth of information, tutorials, and resources related to wellness, including meditation, fitness, nutrition, and mental well-being.
 
@@ -38,6 +39,8 @@ To ensure a seamless user experience, the website will employ a user-centered de
 
 The website will incorporate features such as a responsive design to ensure optimal viewing on different devices, a clear and intuitive navigation menu, and a portfolio section with visually appealing image galleries. These features aim to enhance the overall user experience and facilitate effortless exploration of the photographer's portfolio.
 
+
+# User Experence 
 ## Design
 
 The design of the website will focus on creating a visually striking and cohesive aesthetic that complements. The color palette will consist of natiral muted tones to portray nature and relaxation. The typography will be clean and elegant, ensuring readability and visual consistency.
@@ -74,10 +77,10 @@ Aligning marketing and communication strategies: Personas provide insights into 
 Identifying opportunities for growth and improvement: Personas can uncover opportunities for growth and improvement by highlighting pain points and unmet needs of the target audience. By identifying gaps in the current offering, you can make informed decisions about adding new features, improving existing functionality, or expanding the content to better serve the users. This iterative approach ensures that the website remains relevant and valuable over time.
 
 Overall, creating personas for Wellness Well enables a user-centered design approach, ensuring that the website meets the needs and expectations of its target audience. By considering the personas throughout the design and development process, you can create a website that provides a valuable and engaging experience for users seeking wellness tips and resources.
+
 ![Emmily Persona](README.img/Emily(New-Mother).png)
 
-
-![John Persona](README.img/John(Active-Senior).pngl)
+![John Persona](README.img/John(Active-Senior).png)
 
 ![Sara Persona](README.img/Sara(Health-Conscious-Teenager).png)
 
