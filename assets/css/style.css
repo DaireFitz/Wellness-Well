@@ -584,6 +584,10 @@ h2 {
   opacity: 1;
 }
 
+.tuturial-content-description
+{
+  background-color: var(--card-color);
+}
 .tutorial-card:not(:hover) .card-overlay,
 .tutorial-card:not(:hover) .tutorial-card-paragraph:before {
   opacity: 0;
@@ -732,8 +736,8 @@ h2 {
   .tutorial-card-paragraph {
     font-size: 18px;
   }
-  .tutorial-back-btn {
-    max-width: fit-content;
+ .tutorial-back-btn {
+    max-width: 40%;
   }
 }
 
@@ -749,7 +753,7 @@ h2 {
 /* 955 px */
 @media (max-width: 955px) {
   .tutorial-back-btn {
-    max-width: fit-content;
+    max-width: 40%;
   }
   .landing-heade {
     font-size: 25px;
@@ -893,8 +897,8 @@ h2 {
   #hamburger-icon {
     display: block;
   }
-  .tutorial-back-btn {
-    max-width: fit-content;
+ .tutorial-back-btn {
+    max-width: 40%;
   }
 }
 
@@ -911,9 +915,6 @@ h2 {
   }
 }
 
-.tutorial-back-btn {
-  max-width: fit-content;
-}
 
 .footer ul {
   /*padding: 20px 0;*/
