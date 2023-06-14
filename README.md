@@ -18,7 +18,7 @@ Wellness Well is a website that provides wellness tips and resources to support 
 - [Contributing](#contributing)
 - [License](#license)
 - [Technology Used](#Technology-Used)
--
+- [Testing ](#Testing)
 
 # About
 
@@ -61,7 +61,7 @@ To facilitate easy navigation, a clear and intuitive menu system will be impleme
 Wellness Well also has a seperate pages for each Exercise. There are currently nine of these pages. A "Back" button allows the user to go back yto exactly where the were on the previou page allowing for intuitive navigation.
 
 
-![Site Map of Wellness Well](README.img/SiteMap.pngl)
+![Site Map of Wellness Well](README.img/SiteMap.png)
 
 
 ## Personas
@@ -84,7 +84,7 @@ Overall, creating personas for Wellness Well enables a user-centered design appr
 
 ![Sara Persona](README.img/Sara(Health-Conscious-Teenager).png)
 
-## Features
+# Features
 
 - **Mobile-Friendly:** The website is optimized for mobile devices, allowing users to access the content on the go.
 - **Navigation Menu:** A navigation menu provides quick links to different sections of the website, including Home, Tutorials, About, and Contact.
@@ -111,7 +111,7 @@ Once you have the website up and running, you can explore the various sections a
 - Read the testimonials to learn about the positive experiences of other users.
 - Connect with Wellness Well on social media through the provided links in the footer.
 
-## Technologies Used
+# Technologies Used
 
 The website utilizes the following technologies and tools:
 
@@ -143,11 +143,13 @@ Wireframes and mockups were designed in Figma
 
 YouTube was used to source all video content
 
-## Contributing
+
+# Testing
+# Contributing
 
 Contributions to Wellness Well are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
 
-## License
+# License
 
 Wellness Well is open source and released under the [MIT License](LICENSE).
 
