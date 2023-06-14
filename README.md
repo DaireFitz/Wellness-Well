@@ -44,6 +44,9 @@ The design of the website will focus on creating a visually striking and cohesiv
 
 The website will adhere to design principles that prioritize accessibility and responsiveness. It will be optimized for various screen sizes and resolutions, ensuring a consistent and enjoyable experience across different devices. The use of appropriate contrast, alt text for images, and scalable layouts will contribute to an inclusive and accessible design.
 
+![Wellness Well Mockups](README.img/Mocups.png)
+
+
 ## Site Structure
 
 The website will consist of several main sections: Home, About, and Contact. The Home section will serve as the landing page, providing an introduction to Welness Well .
@@ -53,6 +56,30 @@ The About section will provide background information about the owner , includin
 To facilitate easy navigation, a clear and intuitive menu system will be implemented. The menu will be present on all pages, allowing users to access different sections of the website with ease. Additionally, interactive elements such as image sliders and hover effects will be incorporated to enhance the overall user experience and engagement.
 
 Wellness Well also has a seperate pages for each Exercise. There are currently nine of these pages. A "Back" button allows the user to go back yto exactly where the were on the previou page allowing for intuitive navigation.
+
+
+![Site Map of Wellness Well](README.img/SiteMap.pngl)
+
+
+## Personas
+
+Understanding the target audience: Personas help in gaining a deeper understanding of the different types of users who will interact with the website. By creating personas, you can identify their demographics, needs, goals, and pain points. This knowledge helps in tailoring the website's content, features, and design to better meet the needs of the target audience.
+
+Guiding design and development decisions: Personas serve as a reference point throughout the design and development process. They provide a clear picture of the users' characteristics and preferences, allowing you to make informed decisions about the website's layout, navigation, visual elements, and functionality. By considering the personas, you can ensure that the website resonates with the intended users and provides a positive user experience.
+
+Personalizing the user experience: Personas help in creating a personalized user experience for different segments of the target audience. By understanding the unique needs and motivations of each persona, you can tailor the content, recommendations, and user interactions to provide relevant and engaging experiences. This personalization enhances user satisfaction and increases the likelihood of users returning to the website.
+
+Aligning marketing and communication strategies: Personas provide insights into how to effectively communicate and engage with the target audience. By understanding the personas' preferred communication channels, tone, and messaging, you can develop targeted marketing campaigns and strategies that resonate with the intended users. This alignment increases the chances of attracting and retaining the right users for the website.
+
+Identifying opportunities for growth and improvement: Personas can uncover opportunities for growth and improvement by highlighting pain points and unmet needs of the target audience. By identifying gaps in the current offering, you can make informed decisions about adding new features, improving existing functionality, or expanding the content to better serve the users. This iterative approach ensures that the website remains relevant and valuable over time.
+
+Overall, creating personas for Wellness Well enables a user-centered design approach, ensuring that the website meets the needs and expectations of its target audience. By considering the personas throughout the design and development process, you can create a website that provides a valuable and engaging experience for users seeking wellness tips and resources.
+![Emmily Persona](README.img/Emily(New-Mother).png)
+
+
+![John Persona](README.img/John(Active-Senior).pngl)
+
+![Sara Persona](README.img/Sara(Health-Conscious-Teenager).png)
 
 ## Features
 
@@ -110,6 +137,8 @@ Dribble were the sources of all imagery/illustrations
 The Code Institute modules/lessons aided my learning and many of the concepts learned were applied in this project
 
 Wireframes and mockups were designed in Figma
+
+YouTube was used to source all video content
 
 ## Contributing
 
