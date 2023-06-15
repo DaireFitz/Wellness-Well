@@ -631,6 +631,8 @@ h2 {
   max-width: 20%;
 }
 
+.tutorial-back-btn  after
+
 /* container for tutorial content, video + description */
 .tutorial-content {
   margin: 0;
