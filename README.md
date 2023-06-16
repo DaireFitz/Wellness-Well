@@ -3,35 +3,33 @@
 Wellness Well is a website that provides wellness tips and resources to support a healthy and fulfilling lifestyle. Whether you're looking for meditation techniques, fitness tips, healthy recipes, or mental well-being strategies, Wellness Well has got you covered.
 
 # Table of Contents
-
-- [About](#About) 
- - [Project Background](#Project-Background)
+# Table of Contents
+- [About](#about)
+  - [Project Background](#project-background)
+- [User Experience](#user-experience)
+  - [Design](#design)
+    - [Site Structure](#site-structure)
+    - [Personas](#personas)
+      - [Emily](#emily)
+      - [John](#john)
+      - [Sara](#sara)
+    - [User-Centered Design Approach](#user-centered-design-approach)
+    - [Responsive Design for Any Device](#responsive-design-for-any-device)
+    - [Inspiring Visuals](#inspiring-visuals)
+    - [Brand Consistency](#brand-consistency)
 - [Features](#features)
-- [User Experience](#User-Experience)
- - [Desgin](#Desgin)
-  - [User-Centered Design Approach](#User-Centered-Design-Approach)
-  - [Easy Navigation and Intuitive Interface](#Easy-Navigation-and-Intuitive-Interface)
-  - [Responsive Design for Any Device](#Responsive-Design-for-Any-Device)
-  - [Inspiring Visuals and Engaging Content](#Inspiring-Visuals-and-Engaging-Content)
-  - [Brand Consistency](#Brand-Consistency)
- - [Site Structure](#Site-Structure)
- - [Personas](#Personasa)
-  - [Emily](###Emmily)
-  - [John](###John)
-  - [Sara](###Sara)
- 
-- [Features](#Features)
-
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Technology Used](#Technology-Used)
-- [Testing](#Testing)
- -
- -[Credits](#Credits)
-  -[Images](#Testing)
-  -[Video Contnet](#Testing)
+- [Technology Used](#technology-used)
+- [Testing](#testing)
+- [Credits](#credits)
+ - [Images & Content](#images&content)
+    - [Images](#images)
+    - [Video Contnet](#video-content)
 
 ## About
 
@@ -80,8 +78,8 @@ We believe that visual appeal plays a significant role in enhancing the user exp
 Consistency is a fundamental aspect of our design approach. We maintain a consistent visual language, including color schemes, typography, and iconography, throughout the platform. This helps to reinforce our brand identity and create a recognizable and cohesive user experience. By maintaining consistency, we ensure that users feel familiar and comfortable when engaging with Wellness Well.
 
 By incorporating these design principles and considerations, we aim to create a visually appealing, intuitive, and accessible experience for our users. At Wellness Well, we believe that design has the power to enhance engagement, promote well-being, and provide a delightful user experience.
-#### Site Structure
 
+#### Site Structure
 The website will consist of several main sections: Home, About, and Contact. The Home section will serve as the landing page, providing an introduction to Welness Well .
 
 The About section will provide background information about the owner , including their experience, skills, and their approach.
@@ -95,7 +93,6 @@ Wellness Well also has a seperate pages for each Exercise. There are currently n
 
 
 #### Personas
-
 Understanding the target audience: Personas help in gaining a deeper understanding of the different types of users who will interact with the website. By creating personas, you can identify their demographics, needs, goals, and pain points. This knowledge helps in tailoring the website's content, features, and design to better meet the needs of the target audience.
 
 Guiding design and development decisions: Personas serve as a reference point throughout the design and development process. They provide a clear picture of the users' characteristics and preferences, allowing you to make informed decisions about the website's layout, navigation, visual elements, and functionality. By considering the personas, you can ensure that the website resonates with the intended users and provides a positive user experience.
@@ -108,13 +105,13 @@ Identifying opportunities for growth and improvement: Personas can uncover oppor
 
 Overall, creating personas for Wellness Well enables a user-centered design approach, ensuring that the website meets the needs and expectations of its target audience. By considering the personas throughout the design and development process, you can create a website that provides a valuable and engaging experience for users seeking wellness tips and resources.
 
-##### Emmily 
+###### Emmily 
 ![Emmily Persona](README.img/Emily(New-Mother).png)
 
-##### John
+###### John
 ![John Persona](README.img/John(Active-Senior).png)
 
-##### Sara
+###### Sara
 ![Sara Persona](README.img/Sara(Health-Conscious-Teenager).png)
 
 ## Features
@@ -186,8 +183,9 @@ Contributions to Wellness Well are welcome! If you have any suggestions, improve
 
 Wellness Well is open source and released under the [MIT License](LICENSE).
 
+## Images & Content
 ---
-## Credits 
+### Credits 
 ### Images 
 
 Illustrations: Dribble
