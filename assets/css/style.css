@@ -80,7 +80,7 @@ body {
   /* Width will be 80% or 1440px max */
   margin: auto;
   /* Center container */
-  min-height: 100vh;
+  min-height: auto;
   /* Needed to position footer at bottom of page */
   position: relative;
   z-index: 2;
@@ -96,6 +96,15 @@ body {
   padding-bottom: 270px;
 }
 
+/* footer height for thank you page */
+.content-wrap-thank-you {
+  padding-bottom: 386px;
+}
+
+/* footer height for thank you page */
+.content-wrap-tutorials {
+    padding-bottom: 122px;
+}
 /* Styling for individual navigation link items */
 .nav-link {
   margin: 0 0 0 60px;
@@ -919,16 +928,13 @@ h2 {
 
 
 .footer ul {
-  /*padding: 20px 0;*/
   list-style: none;
   list-style: none;
   display: flex;
-  /* padding: 5px; */
   padding: 8px 12px;
 }
 
 .footer-container {
-  /*max-width: 1170px;*/
   background-color: var(--card-color);
   margin: auto;
   border-radius: 20px;
