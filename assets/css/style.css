@@ -953,18 +953,10 @@ flex-wrap: wrap;
   .landing-paragraph {
     font-size: 16px;
   }
-  .container-2 .image img {
+  .container-2 {
   flex-direction: column;
 padding: 20px;
 }
-
-@media (max-width: 1200px) {
-/*100px*/
-  .container-2 .image img {
-  flex-direction: column;
-padding: 20px;
-    }
-  }
 
     
 /*decorative line break */
