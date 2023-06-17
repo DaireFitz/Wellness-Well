@@ -370,6 +370,8 @@ h2 {
   animation: fadeIn 4s ease-in-out forwards;
   font-family: "Alex Brush";
   position: relative;
+  color: var(--headline-color);
+font-size: 28px;
   
 }
 
