@@ -1,5 +1,6 @@
 # Wellness Well
 
+![Wellness Well](README.img/Devices.png)
 Wellness Well is a website that provides wellness tips and resources to support a healthy and fulfilling lifestyle. Whether you're looking for meditation techniques, fitness tips, healthy recipes, or mental well-being strategies, Wellness Well has got you covered.
 
 # Table of Contents
@@ -61,6 +62,8 @@ At Wellness Well, we are dedicated to providing a seamless and enjoyable user ex
 
 ### Design 
 The design of the website will focus on creating a visually striking and cohesive aesthetic that complements. The color palette will consist of natiral muted tones to portray nature and relaxation. The typography will be clean and elegant, ensuring readability and visual consistency.
+
+![Wellness Well Colour Pallet](README.img/Wellness-Well-Color-Pallet.png)
 ![Wellness Well Mockups](README.img/Mocups.png)
 #### User-Centered Design Approach
 We believe that understanding our users is essential to creating a valuable and impactful user experience. To achieve this, we have conducted extensive user research to gain insights into their preferences, needs, and pain points. By empathizing with our users, we can tailor our platform to address their specific wellness goals and challenges.
@@ -74,10 +77,12 @@ We understand that our users access Wellness Well from various devices, includin
 #### Inspiring Visuals and Engaging Content
 We believe that visual appeal plays a significant role in enhancing the user experience. Wellness Well features captivating imagery, illustrations, and videos that inspire and motivate our users on their wellness journey. Our content is carefully curated to be informative, engaging, and actionable, providing valuable insights and practical tips.
 
+
 #### Brand Consistency
 Consistency is a fundamental aspect of our design approach. We maintain a consistent visual language, including color schemes, typography, and iconography, throughout the platform. This helps to reinforce our brand identity and create a recognizable and cohesive user experience. By maintaining consistency, we ensure that users feel familiar and comfortable when engaging with Wellness Well.
 
 By incorporating these design principles and considerations, we aim to create a visually appealing, intuitive, and accessible experience for our users. At Wellness Well, we believe that design has the power to enhance engagement, promote well-being, and provide a delightful user experience.
+
 
 #### Site Structure
 The website will consist of several main sections: Home, About, and Contact. The Home section will serve as the landing page, providing an introduction to Welness Well .
