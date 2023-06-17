@@ -1,6 +1,6 @@
 # Wellness Well
 
-![Wellness Well](README.img/Devices.png)
+![Wellness Well](README.img/Wellnes-Well-Devices.png)
 Wellness Well is a website that provides wellness tips and resources to support a healthy and fulfilling lifestyle. Whether you're looking for meditation techniques, fitness tips, healthy recipes, or mental well-being strategies, Wellness Well has got you covered.
 
 # Table of Contents
