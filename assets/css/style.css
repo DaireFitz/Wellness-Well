@@ -764,13 +764,19 @@ align-content: center;
     width:100%
   }
   
+  .container-2 .image img {
+  flex-direction: column;
+padding: 20px;
+  
+}
+  
   
  .What-Is-Welness-Well-card {
   display: flex;
 flex-wrap: wrap;
 }
   .What-Is-Welness-Well-card img {
-    width:100%;
+    width:fit-content%;
   }
   
 }
@@ -789,6 +795,12 @@ flex-wrap: wrap;
   .tutorial-back-btn {
     max-width: 40%;
   }
+  
+  .container-2 .image img {
+  flex-direction: column;
+padding: 20px;
+  
+}
   
   .footer-col{
     width: 100%;
@@ -1002,13 +1014,14 @@ font-family: "Montserrat Alternates", sans-serif;
 .footer-col h4::before {
   content: "";
   position: absolute;
- /* left: 0;*/f
   bottom: -10px;
   background-color: var(--hover-color);
   height: 2px;
   box-sizing: border-box;
   width: 50px;
   font-family: "Montserrat Alternates", sans-serif;
+left: 0;
+width: 100%;
 }
 
 .footer-col ul li:not(:last-child) {
