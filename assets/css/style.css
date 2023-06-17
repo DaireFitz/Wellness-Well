@@ -491,7 +491,7 @@ h2 {
 @media (max-width: 767px) {
   .wraper1-user .user-box {
     width: 100%;
-    max-width: 300px;
+    /*max-width: 300px;*/
     margin-left: auto;
     margin-right: auto;
   }
@@ -769,7 +769,7 @@ h2 {
 flex-wrap: wrap;
 }
   .What-Is-Welness-Well-card img {
-    width:50%;
+    width:100%;
   }
   
 }
@@ -787,6 +787,15 @@ flex-wrap: wrap;
 @media (max-width: 955px) {
   .tutorial-back-btn {
     max-width: 40%;
+  }
+  .footer-col{
+    width: 100%;
+    /* width: 50%; */
+/* padding: 0 50px; */
+font-family: "Montserrat Alternates", sans-serif;
+/* align-items: center; */
+display: flex;
+flex-direction: column;
   }
   .landing-heade {
     font-size: 25px;
