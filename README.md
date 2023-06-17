@@ -4,7 +4,6 @@
 Wellness Well is a website that provides wellness tips and resources to support a healthy and fulfilling lifestyle. Whether you're looking for meditation techniques, fitness tips, healthy recipes, or mental well-being strategies, Wellness Well has got you covered.
 
 # Table of Contents
-# Table of Contents
 - [About](#about)
   - [Project Background](#project-background)
 - [User Experience](#user-experience)
