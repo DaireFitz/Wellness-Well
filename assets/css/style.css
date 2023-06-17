@@ -193,7 +193,7 @@ body {
   display: none;
   position: absolute;
   /* top: 50px; */
-  left: 0;
+  /*left: 0;*/
   /* height: calc(100vh - 50px); */
   width: 100%;
   background-color: var(--card-color);
@@ -737,7 +737,7 @@ h2 {
 @media (max-width: 1024px) {
   .landing-heade {
     font-size: 25px;
-  }
+    ]
 
   .What-Is-Welness-Well-card {
     font-size: 18px;
