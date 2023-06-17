@@ -5,11 +5,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+   font-size: 1rem;
 }
 
 /* Add antialiasing to fonts & Enable smooth scrolling */
 html {
   scroll-behavior: smooth;
+  font-size: calc(60% + 0.8vmin);
 }
 
 p {
@@ -223,7 +225,7 @@ body {
 
 /* Styling for the landing page h1 */
 .landing-header {
-  font-size: 48px;
+  font-size: 2.2rem;
   padding-bottom: 10px;
   font-weight: bold;
   color: var(--headline-color);
@@ -338,7 +340,7 @@ body {
 
 /* styles for H2 tag */
 h2 {
-  font-size: 40px;
+  font-size: 1.6rem;
   font-weight: bold;
   color: white;
   font-family: "Montserrat Alternates", sans-serif;
@@ -494,6 +496,7 @@ h2 {
     margin-right: auto;
   }
 }
+
 
 /* tutorial cards on exercises page */
 .tutorial-card {
@@ -745,6 +748,16 @@ h2 {
   }
  .tutorial-back-btn {
     max-width: 40%;
+  }
+  .wraper1-user .user-box {
+    width: auto;
+  }
+  .footer-col{
+    width: 100%;
+  }
+  .row-footer{
+      display: flex;
+    flex-wrap: wrap; 
   }
 }
 
