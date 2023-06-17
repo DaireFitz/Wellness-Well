@@ -495,6 +495,12 @@ h2 {
     margin-left: auto;
     margin-right: auto;
   }
+  
+  .container-2 .image img {
+  flex-direction: column;
+padding: 20px;
+  
+}
 }
 
 
@@ -944,7 +950,11 @@ font-family: "Montserrat Alternates", sans-serif;
     flex-direction: column;
     align-items: center;
   }
-
+.container-2 .image img {
+  flex-direction: column;
+padding: 20px;
+  
+}
   .learn-more {
     margin-left: 0;
     /* removes left margin from cta when stacked on smaller screens */
@@ -973,6 +983,12 @@ font-family: "Montserrat Alternates", sans-serif;
   .logo {
     font-size: 18px;
   }
+  
+  .container-2 .image img {
+  flex-direction: column;
+padding: 20px;
+  
+}
 }
 
 
@@ -1090,6 +1106,12 @@ width: 100%;
   .footer-col {
     width: 100%;
   }
+  
+  .container-2 .image img {
+  flex-direction: column;
+padding: 20px;
+  
+}
 
   .footer ul {
     display: flex;
