@@ -737,8 +737,8 @@ h2 {
 @media (max-width: 1024px) {
   .landing-heade {
     font-size: 25px;
-    ]
-
+  }
+  
   .What-Is-Welness-Well-card {
     font-size: 18px;
   }
@@ -759,6 +759,18 @@ h2 {
       display: flex;
     flex-wrap: wrap; 
   }
+  .wraper1-user .user-box {
+    width:100%
+  }
+  
+ .What-Is-Welness-Well-card {
+  display: flex;
+flex-wrap: wrap;
+}
+  .What-Is-Welness-Well-card img {
+    width:50%;
+  }
+  
 }
 
 /*decorative line break */
@@ -1035,11 +1047,11 @@ h2 {
 }
 
 @media (max-width: 767px) {
-  .footer-col {
+  /*.footer-col {
     width: 50%;
     margin-bottom: 30px;
   }
-
+*/
   .footer-col ul li:not(:last-child) {
     padding-right: 0;
   }
