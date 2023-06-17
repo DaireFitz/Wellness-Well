@@ -763,6 +763,7 @@ h2 {
     width:100%
   }
   
+  
  .What-Is-Welness-Well-card {
   display: flex;
 flex-wrap: wrap;
@@ -908,6 +909,10 @@ flex-wrap: wrap;
     flex-basis: 100%;
     /* make inputs full width at 768px and below */
   }
+  
+  .wraper1-user .user-box {
+    width:100%;
+  }
 }
 /* 625px */
 @media (max-width: 625px) {
@@ -986,7 +991,7 @@ flex-wrap: wrap;
 .footer-col h4::before {
   content: "";
   position: absolute;
-  left: 0;
+ /* left: 0;*/f
   bottom: -10px;
   background-color: var(--hover-color);
   height: 2px;
