@@ -364,12 +364,13 @@ h2 {
   z-index: 1;
 }
 
-/* styles for H2 tag within banner */
-.banner-h2 {
+/* styles for h1 tag within banner */
+.banner-h1 {
   opacity: 0;
   animation: fadeIn 4s ease-in-out forwards;
   font-family: "Alex Brush";
   position: relative;
+  
 }
 
 .banner img.background-image {
