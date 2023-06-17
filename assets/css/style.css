@@ -756,8 +756,9 @@ h2 {
     width: 100%;
   }
   .row-footer{
-      display: flex;
-    flex-wrap: wrap; 
+  display: flex;
+flex-direction: column;
+align-content: center;
   }
   .wraper1-user .user-box {
     width:100%
@@ -788,14 +789,15 @@ flex-wrap: wrap;
   .tutorial-back-btn {
     max-width: 40%;
   }
+  
   .footer-col{
     width: 100%;
     /* width: 50%; */
 /* padding: 0 50px; */
 font-family: "Montserrat Alternates", sans-serif;
 /* align-items: center; */
-display: flex;
-flex-direction: column;
+/*display: flex;*/
+/*flex-direction: column;*/
   }
   .landing-heade {
     font-size: 25px;
@@ -1062,7 +1064,7 @@ flex-direction: column;
 
 @media (max-width: 767px) {
   /*.footer-col {
-    width: 50%;
+    width: 100%;
     margin-bottom: 30px;
   }
 */
