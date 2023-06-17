@@ -621,8 +621,13 @@ h2 {
   max-width: 20%;
 }
 
-.tutorial-back-btn  after
-
+.tutorial-back-btn:hover :: after{
+  
+background: #d1fffa;
+display: block;
+margin: auto;
+transition: 0.5s;
+}
 /* container for tutorial content, video + description */
 .tutorial-content {
   margin: 0;
