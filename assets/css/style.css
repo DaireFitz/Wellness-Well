@@ -383,7 +383,7 @@ font-size: 28px;
   
 }
 
-.banner img .background-image {
+.banner img.background-image {
   position: absolute;
   top: 0;
   left: 0;
@@ -633,10 +633,10 @@ font-size: 28px;
 
 .tutorial-back-btn:hover 
 {
-  background-color:#d1fffa;;
+  background-color:64, 131, 122;
   color: var(--headline-color);
   border: 1px solid var(--headline-color);
-transition: transform 0.3s ease;
+transition: transform 0.5s ease;
 }
 
 
