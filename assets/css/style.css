@@ -347,6 +347,14 @@ h2 {
   text-align: center;
 }
 
+.line-break {
+  height: 4px;
+  background-color: white;
+  border: none;
+  border-radius: 1px;
+  margin: 25px 0 25px 0;
+}
+
 /* banner image for landing page*/
 .banner {
   /*background-image:url('assets/images/killiney-beach.jpg');*/
@@ -375,7 +383,7 @@ font-size: 28px;
   
 }
 
-.banner img.background-image {
+.banner img .background-image {
   position: absolute;
   top: 0;
   left: 0;
@@ -384,7 +392,7 @@ font-size: 28px;
   object-fit: cover;
 }
 
-/* keyframe animation for banner H2 tag */
+/* keyframe animation for banner H1 tag */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -624,13 +632,19 @@ font-size: 28px;
   max-width: 20%;
 }
 
-.tutorial-back-btn:hover :: after{
-  
-background: #d1fffa;
+.tutorial-back-btn:hover 
+{
+  background-color:#d1fffa;;
+  color: var(--headline-color);
+  border: 1px solid var(--headline-color);
+transition: transform 0.3s ease;
+
 display: block;
 margin: auto;
 transition: 0.5s;
 }
+
+
 /* container for tutorial content, video + description */
 .tutorial-content {
   margin: 0;
