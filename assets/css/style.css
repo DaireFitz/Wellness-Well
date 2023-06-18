@@ -627,7 +627,6 @@ font-size: 28px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: transform 0.3s ease;
   margin: 40px;
   max-width: 20%;
 }
@@ -638,10 +637,6 @@ font-size: 28px;
   color: var(--headline-color);
   border: 1px solid var(--headline-color);
 transition: transform 0.3s ease;
-
-display: block;
-margin: auto;
-transition: 0.5s;
 }
 
 
