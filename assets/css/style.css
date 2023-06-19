@@ -764,7 +764,7 @@ font-size: 28px;
     width: 100%;
     text-align: center;
   }
-}
+
 .contact-form {
   padding-top: 50px;
 }
@@ -963,19 +963,19 @@ align-content: center;
 padding: 20px;
   
 }
-  
+ 
   
  .What-Is-Welness-Well-card {
   display: flex;
 flex-wrap: wrap;
 }
   .What-Is-Welness-Well-card img {
-    width:fit-content%;
+    width:fit-content;
   }
   
 }
 
-
+}
     
 /*decorative line break */
 .line-break {
@@ -1050,7 +1050,7 @@ font-family: "Montserrat Alternates", sans-serif;
   }
 }
 
-  }
+  
 /* 768px */
 @media (max-width: 768px) {
   main {
@@ -1137,7 +1137,7 @@ font-family: "Montserrat Alternates", sans-serif;
     flex-direction: column;
     padding: 20px
 }
-
+}
 @media (max-width: 767px) {
   .wraper1-user .user-box {
     width: 100%;
