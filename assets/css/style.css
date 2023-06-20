@@ -921,12 +921,13 @@ width: 100%;
   .container-2 {
   flex-direction: column;
 padding: 20px;
-    
-    .footer-col {
+  }
+.footer-col {
 width: 100%;
 text-align: center;
 }
 }
+
 /* 1024px */
 @media (max-width: 1024px) {
   .landing-heade {
@@ -975,7 +976,7 @@ flex-wrap: wrap;
   
 }
 
-}
+
     
 /*decorative line break */
 .line-break {
@@ -988,6 +989,10 @@ flex-wrap: wrap;
 
 /* 955 px */
 @media (max-width: 955px) {
+
+  .content-wrap-tutorials {
+    padding-bottom: 359px;
+}
   .tutorial-back-btn {
     max-width: 40%;
   }
@@ -1053,6 +1058,10 @@ font-family: "Montserrat Alternates", sans-serif;
   
 /* 768px */
 @media (max-width: 768px) {
+
+  .content-wrap-tutorials {
+    padding-bottom: 122px;
+}
   main {
     margin: 50px 0;
   }
@@ -1151,6 +1160,10 @@ font-family: "Montserrat Alternates", sans-serif;
 padding: 20px;
   
 }
+
+.content-wrap-tutorials {
+    padding-bottom: 122px;
+}
 }
 
 @media (max-width: 767px) {
@@ -1204,6 +1217,10 @@ padding: 20px;
  .tutorial-back-btn {
     max-width: 40%;
   }
+
+  .content-wrap-tutorials {
+    padding-bottom: 122px;
+}
 }
 
 /* 390px */
@@ -1222,6 +1239,10 @@ padding: 20px;
   flex-direction: column;
 padding: 20px;
   
+}
+
+.content-wrap-tutorials {
+    padding-bottom: 122px;
 }
 }
 
