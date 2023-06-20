@@ -47,14 +47,22 @@ p {
 
 /* Styling for navigation bar */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: bold;
-  border-bottom: 1px solid var(--headline-color);
-  /* Adds a 1px border at the bottom of the navigation bar */
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid var(--headline-color);
+    width: min(80%, 1440px);
+    margin: auto;
+    min-height: auto;
+    position: relative;
+    z-index: 2;
 }
+
+
+  /* Adds a 1px border at the bottom of the navigation bar */
+
 
 /* Styling for Wellness Well logo on the top left of the navigation bar */
 .logo {
@@ -72,8 +80,7 @@ body {
 }
 
 /* Container styles */
-.container,
-.container1 {
+.container {
   width: min(80%, 1440px);
   /* Width will be 80% or 1440px max */
   margin: auto;
@@ -84,10 +91,7 @@ body {
   z-index: 2;
 }
 
-/* Set minimum height for container1 */
-.container1 {
-  min-height: 0;
-}
+
 
 /* footer height */
 .content-wrap {
