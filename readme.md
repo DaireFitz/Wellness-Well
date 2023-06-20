@@ -62,8 +62,8 @@ At Wellness Well, we are dedicated to providing a seamless and enjoyable user ex
 ### Design 
 The design of the website will focus on creating a visually striking and cohesive aesthetic that complements. The color palette will consist of natiral muted tones to portray nature and relaxation. The typography will be clean and elegant, ensuring readability and visual consistency.
 
-![Wellness Well Colour Pallet](readme.img/wellness-well-color-pallet.png)
-![Wellness Well Mockups](readme.img/mocups.png)
+![Wellness Well Colour Pallet](readme.img/wellness-well-color-pallet1.png)
+![Wellness Well Mockups](readme.img/mocups1.png)
 #### User-Centered Design Approach
 We believe that understanding our users is essential to creating a valuable and impactful user experience. To achieve this, we have conducted extensive user research to gain insights into their preferences, needs, and pain points. By empathizing with our users, we can tailor our platform to address their specific wellness goals and challenges.
 
@@ -93,7 +93,7 @@ To facilitate easy navigation, a clear and intuitive menu system will be impleme
 Wellness Well also has a seperate pages for each Exercise. There are currently nine of these pages. A "Back" button allows the user to go back yto exactly where the were on the previou page allowing for intuitive navigation.
 
 
-![Site Map of Wellness Well](readme.img/sitemap.png)
+![Site Map of Wellness Well](readme.img/sitemap1.png)
 
 
 #### Personas
@@ -110,13 +110,13 @@ Identifying opportunities for growth and improvement: Personas can uncover oppor
 Overall, creating personas for Wellness Well enables a user-centered design approach, ensuring that the website meets the needs and expectations of its target audience. By considering the personas throughout the design and development process, you can create a website that provides a valuable and engaging experience for users seeking wellness tips and resources.
 
 ###### Emmily 
-![Emmily Persona](readme.img/emily-new-mother.png)
+![Emmily Persona](readme.img/emily-new-mother1.png)
 
 ###### John
-![John Persona](readme.img/john-active-senior.png)
+![John Persona](readme.img/john-active-senior1.png)
 
 ###### Sara
-![Sara Persona](readme.img/sara-health-conscious-teenager.png)
+![Sara Persona](readme.img/sara-health-conscious-teenager1.png)
 
 ## Features
 
