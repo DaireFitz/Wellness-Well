@@ -1,6 +1,6 @@
 # Wellness Well
 
-![Wellness Well](README.img/Wellnes-Well-Devices.png)
+![Wellness Well](documentation/Wellnes-Well-Devices.png)
 Wellness Well is a website that provides wellness tips and resources to support a healthy and fulfilling lifestyle. Whether you're looking for meditation techniques, fitness tips, healthy recipes, or mental well-being strategies, Wellness Well has got you covered.
 
 # Table of Contents
@@ -62,8 +62,8 @@ At Wellness Well, we are dedicated to providing a seamless and enjoyable user ex
 ### Design 
 The design of the website will focus on creating a visually striking and cohesive aesthetic that complements. The color palette will consist of natiral muted tones to portray nature and relaxation. The typography will be clean and elegant, ensuring readability and visual consistency.
 
-![Wellness Well Colour Pallet](readme.img/wellness-well-color-pallet1.png)
-![Wellness Well Mockups](readme.img/mocups1.png)
+![Wellness Well Colour Pallet](documentation/wellness-well-color-pallet1.png)
+![Wellness Well Mockups](documentation/mocups1.png)
 #### User-Centered Design Approach
 We believe that understanding our users is essential to creating a valuable and impactful user experience. To achieve this, we have conducted extensive user research to gain insights into their preferences, needs, and pain points. By empathizing with our users, we can tailor our platform to address their specific wellness goals and challenges.
 
@@ -93,7 +93,7 @@ To facilitate easy navigation, a clear and intuitive menu system will be impleme
 Wellness Well also has a seperate pages for each Exercise. There are currently nine of these pages. A "Back" button allows the user to go back yto exactly where the were on the previou page allowing for intuitive navigation.
 
 
-![Site Map of Wellness Well](readme.img/sitemap1.png)
+![Site Map of Wellness Well](documentation/sitemap1.png)
 
 
 #### Personas
@@ -110,13 +110,13 @@ Identifying opportunities for growth and improvement: Personas can uncover oppor
 Overall, creating personas for Wellness Well enables a user-centered design approach, ensuring that the website meets the needs and expectations of its target audience. By considering the personas throughout the design and development process, you can create a website that provides a valuable and engaging experience for users seeking wellness tips and resources.
 
 ###### Emmily 
-![Emmily Persona](readme.img/emily-new-mother1.png)
+![Emmily Persona](documentation/emily-new-mother1.png)
 
 ###### John
-![John Persona](readme.img/john-active-senior1.png)
+![John Persona](documentation/john-active-senior1.png)
 
 ###### Sara
-![Sara Persona](readme.img/sara-health-conscious-teenager1.png)
+![Sara Persona](documentation/sara-health-conscious-teenager1.png)
 
 ## Features
 
@@ -153,11 +153,7 @@ HTML5: The website structure and content are built using HTML5, providing a sema
 
 CSS3: CSS3 is used to style the website, including layout, typography, colors, and visual effects. It enables the creation of a visually appealing and responsive design.
 
-Bootstrap: The Bootstrap framework is employed to enhance the website's responsiveness and facilitate the development of a mobile-first design approach. It provides a collection of pre-built CSS and JavaScript components, ensuring consistency and compatibility across different devices.
-
 JavaScript: JavaScript is utilized to add interactivity and dynamic functionality to the website. It enables features such as image sliders, smooth scrolling, form validation, and menu navigation.
-
-jQuery: jQuery, a fast and concise JavaScript library, is utilized to simplify and streamline common JavaScript tasks. It provides an efficient way to manipulate HTML elements, handle events, and make AJAX requests.
 
 FontAwesome: FontAwesome icons are used to enhance the visual representation of elements throughout the website. These scalable vector icons offer a wide range of choices and can be easily customized.
 
@@ -173,9 +169,6 @@ Dribble were the sources of all imagery/illustrations
 
 The Code Institute modules/lessons aided my learning and many of the concepts learned were applied in this project
 
-Wireframes and mockups were designed in Figma
-
-YouTube was used to source all video content
 
 
 ## Testing
@@ -193,7 +186,7 @@ Wellness Well is open source and released under the [MIT License](LICENSE).
 ### Images 
 
 Illustrations: Dribble
-- https://dribbble.com/shots/16295497-Avatars-for-HR-department/attachments/8172168?mode=media Creator:
+- https://dribbble.com/shots/16295497-Avatars-for-HR-department/attachments/8172168?mode=media Creator:Laura Reen
 - https://dribbble.com/shots/15429676-Vegetarian-woman Creator: Ailey Daily  
 - https://dribbble.com/shots/19437410-It-s-Cooking-Time Creator: Unini
 - https://dribbble.com/shots/19795319-Cooking-Fruit-Cakes Creator: Shakuro Graphics
