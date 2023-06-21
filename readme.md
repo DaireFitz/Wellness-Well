@@ -1,6 +1,6 @@
 # Wellness Well
 
-![Wellness Well](documentation/Wellnes-Well-Devices.png)
+![Wellness Well](documentation/wellnes-well-devices1.png)
 Wellness Well is a website that provides wellness tips and resources to support a healthy and fulfilling lifestyle. Whether you're looking for meditation techniques, fitness tips, healthy recipes, or mental well-being strategies, Wellness Well has got you covered.
 
 # Table of Contents
@@ -132,6 +132,7 @@ Overall, creating personas for Wellness Well enables a user-centered design appr
 
 To get started with Wellness Well, follow these steps:
 
+Loacal Repository 
 1. Clone the repository: `git clone <repository-url>`
 2. Open the project in a web development environment.
 3. Launch the website by opening the `index.html` file in a web browser.
@@ -172,6 +173,9 @@ The Code Institute modules/lessons aided my learning and many of the concepts le
 
 
 ## Testing
+
+
+
 ## Contributing
 
 Contributions to Wellness Well are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
