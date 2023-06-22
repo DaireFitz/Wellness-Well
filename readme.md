@@ -326,17 +326,21 @@ I am really happy with the site perfomrnace on desktop with all ratings over 90%
 
 
 I used pages speed insights to help detirime the speed of my site and to solve with any issues see
-I had issues with the mobile version of the site where so I compressed them and that help with page performance by 10%! There is still work that needs to be done on the mobile version of the site but overall I am happy. 
-
 
 ![Speed Test Mobile](documentation/spped-test-mobile.png)
+
+
+
+I had issues with the mobile version of the site where so I compressed them and that help with page performance by 10%! There is still work that needs to be done on the mobile version of the site but overall I am happy. 
 
 
 ![Speed Test Mobile After](documentation/speed-test-mobile-after.png)
 
 
 
-I also  used Nu Html Checker to validate all pages, they all came up  clear see here 
+I also  used Nu Html Checker to validate all pages, they all came up  clear!
+
+![Nu Html Checker](documentation/wellness-well-w3.png)
 
 
 
