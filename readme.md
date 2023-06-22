@@ -27,6 +27,8 @@ Wellness Well is a website that provides wellness tips and resources to support 
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
+  - [Setting Up Online Repository on GitHub](#Setting-Up-Online-Repository-on-GitHub)
+  - [Setting Up Local Repository in Visual Studio Code](#Setting-Up-Local-Repository-in-Visual-Studio-Code)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -199,31 +201,72 @@ Amanda feels informed and decides to explore further to find specific content th
 By considering these user profiles and journeys, the Wellness Well website can enhance its user experience and cater to the diverse needs of its visitors.
 
 
-
-
-
-
-
-
-
 ## Features
 
 - **Mobile-Friendly:** The website is optimized for mobile devices, allowing users to access the content on the go.
+
+
 - **Navigation Menu:** A navigation menu provides quick links to different sections of the website, including Home, Tutorials, About, and Contact.
+
+
 - **Hamburger Menu:** For mobile devices, a hamburger menu is available, allowing users to toggle the mobile menu for easy navigation.
+
+
 - **Banner and Call-to-Action:** A visually appealing banner welcomes visitors with a motivational message and provides call-to-action buttons to jump into tutorials or learn more about the website.
+
 - **Tutorials:** The website offers a variety of tutorials on topics such as meditation, fitness, and cooking. Each tutorial is represented by a visually appealing card with a brief description.
+
 - **Testimonials:** Testimonials from satisfied users are showcased, providing social proof of the website's effectiveness.
+
+
 - **Footer:** The footer section contains links to different pages, social media profiles, and company information.
 
-### Getting Started
 
-To get started with Wellness Well, follow these steps:
 
-Loacal Repository 
-1. Clone the repository: `git clone <repository-url>`
-2. Open the project in a web development environment.
-3. Launch the website by opening the `index.html` file in a web browser.
+
+## Getting Started
+In this secion of the README file I dicuss how I craeted a local and online repository for thsi project. 
+
+
+### Setting Up Local Repository in Visual Studio Code
+
+Install Git
+
+Download and install Git from the official website (https://git-scm.com/) based on your operating system. Install Visual Studio Code: Download and install Visual Studio Code from the official website (https://code.visualstudio.com/), if you haven't already.
+Open Visual Studio Code: Launch Visual Studio Code on your computer.
+Open a Project: Open the project folder or create a new folder for your project in Visual
+
+Studio Code
+Initialize Git: In Visual Studio Code, open the integrated terminal by going to View -> Terminal or using the shortcut Ctrl+`.
+
+Initialize Git Repository 
+In the terminal, navigate to the project folder and run the following command to initialize a 
+Git repository: git init.
+
+Add Files
+Use the command git add . to stage all files in the current directory for the initial commit. Alternatively, you can specify individual files to add.
+Commit Changes: Execute the command git commit -m "Initial commit" to commit the changes and provide a meaningful commit message.
+
+### Setting Up Online Repository on GitHub
+
+Create a GitHub Account
+Go to the GitHub website (https://github.com/) and sign up for a new account if you don't have one.
+
+Create a New Repository
+Click on the "+" button on the top right corner of the GitHub dashboard and select "New Repository". Provide a repository name, description, and choose any additional settings.
+
+Copy Repository URL: After creating the repository, copy the repository URL. You can find it on the repository's main page, usually in the format https://github.com/<username>/<repository-name>.git.
+
+Connect Local Repository to Remote
+
+ In Visual Studio Code's terminal, run the command git remote add origin <repository-url>, replacing <repository-url> with the URL you copied in the previous step.
+
+Push Local Repository to Remote: Execute the command git push -u origin master to push the local repository to the remote GitHub repository. You may be prompted to provide your GitHub credentials.
+
+That's it! You have now set up a local repository using Visual Studio Code and created a corresponding online repository on GitHub. You can continue making changes to your project, committing them locally, and pushing them to the remote repository as needed..
+
+
+
 
 ## Usage
 
