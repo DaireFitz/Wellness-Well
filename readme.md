@@ -13,6 +13,12 @@ Wellness Well is a website that provides wellness tips and resources to support 
       - [Emily](#emily)
       - [John](#john)
       - [Sara](#sara)
+    - [User Journeys](#user-jorneys)
+      - [User Profile 1: Easy Navigation](#User-Profile1:Easy-Navigation)
+      - [User Profile 2: Owner's Information and Motivations](#User-Profile2:Owner's-Information-and-Motivations)
+      - [User Profile 3: Leaving Feedback and Contacting Admin](#User-Profile3:-Leaving-Feedback-and-Contacting-Admin)
+      - [User Profile 4: Social Media Integration](#User-Profile4:Social-Media-Integration)
+      - [User Profile 5: Clear Purpose on Homepage](#User-Profile5:Clear-Purpose-on-Homepage)
     - [User-Centered Design Approach](#user-centered-design-approach)
     - [Responsive Design for Any Device](#responsive-design-for-any-device)
     - [Inspiring Visuals](#inspiring-visuals)
@@ -117,6 +123,88 @@ Overall, creating personas for Wellness Well enables a user-centered design appr
 
 ###### Sara
 ![Sara Persona](documentation/sara-health-conscious-teenager1.png)
+
+
+##### User Jorneys
+
+###### User Profile 1: Easy Navigation
+
+Name: Katie
+Age: 35
+Occupation: Marketing Manager
+Goal: To easily navigate through a website and access important pages.
+User Journey:
+
+Katie visits the Wellness Well website.
+She immediately notices the well-organized and user-friendly navigation bar at the top.
+Katie clicks on the different tabs in the navigation bar, such as "About," "Wellness Topics," and "Programs."
+Each click takes her to the relevant page, providing easy access to all the important sections of the website. Katine appreciates the straightforward navigation and feels confident in finding the information she needs.
+
+###### User Profile 2: Owner's Information and Motivations
+
+Name: Michael
+Age: 42
+Occupation: Health Coach
+Goal: To learn about the ownership of the site and the owner's motivations and credentials.
+User Journey:
+
+Michael visits the Wellness Well website.
+He navigates to the "About" section.
+In the "About" section, Michael finds a dedicated page introducing the website's owner and their background in health coaching.
+The page highlights the owner's motivations for setting up the site, such as a personal journey towards wellness and a desire to share knowledge and inspire others.
+Michael appreciates the transparency and feels more connected to the website's content knowing the owner's credentials and motivations.
+
+###### User Profile 3: Leaving Feedback and Contacting Admin
+
+Name: Emily
+Age: 28
+Occupation: Yoga Instructor
+Goal: To leave feedback or directly contact the admin team through a form on the website.
+User Journey:
+
+Emily visits the Wellness Well website.
+At the bottom of each page, she notices a "Feedback" button.
+Emily clicks on the "Feedback" button and is directed to a dedicated form where she can leave her comments, suggestions, or inquiries.
+After submitting the form, Emily receives a confirmation message, assuring her that her feedback has been received.
+Additionally, Emily discovers a "Contact Us" page in the navigation menu, providing alternative ways to reach out to the admin team, such as email or phone.
+Emily appreciates the multiple avenues for communication and feels confident that her voice is heard.
+
+###### User Profile 4: Social Media Integration
+
+Name: John
+Age: 45
+Occupation: Financial Analyst
+Goal: To easily access the website's social media platforms from the site.
+User Journey:
+
+John visits the Wellness Well website.
+On the homepage, he notices the social media icons prominently displayed in the footer.
+John clicks on the social media icons and is redirected to the corresponding social media platforms, such as Facebook, Instagram.
+On the social media platforms, he finds additional content, such as motivational quotes, wellness tips, and behind-the-scenes footage.
+John follows the Wellness Well accounts on social media to stay updated and engaged with the community.
+
+###### User Profile 5: Clear Purpose on Homepage
+
+Name: Amanda
+Age: 30
+Occupation: Teacher
+Goal: To quickly understand the purpose of the website from the homepage.
+User Journey:
+
+Amanda visits the Wellness Well website.
+On the homepage, she immediately notices a clear and concise tagline that encapsulates the website's purpose.
+Below the tagline, Amanda finds a brief overview of the website's offerings, including wellness articles, videos, programs, and resources.
+She quickly skims through the homepage content and gains a solid understanding of what the website is all about.
+Amanda feels informed and decides to explore further to find specific content that aligns with her wellness goals.
+By considering these user profiles and journeys, the Wellness Well website can enhance its user experience and cater to the diverse needs of its visitors.
+
+
+
+
+
+
+
+
 
 ## Features
 
