@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-   font-size: 1rem;
+  font-size: 1rem;
 }
 
 /* Add antialiasing to fonts & Enable smooth scrolling */
@@ -47,21 +47,21 @@ p {
 
 /* Styling for navigation bar */
 header {
-     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: bold;
-    border-bottom: 1px solid var(--headline-color);
-    width: min(80%, 1440px);
-    margin: auto;
-    min-height: auto;
-    position: relative;
-    z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid var(--headline-color);
+  width: min(80%, 1440px);
+  margin: auto;
+  min-height: auto;
+  position: relative;
+  z-index: 2;
 }
 
 
-  /* Adds a 1px border at the bottom of the navigation bar */
+/* Adds a 1px border at the bottom of the navigation bar */
 
 
 /* Styling for Wellness Well logo on the top left of the navigation bar */
@@ -105,8 +105,9 @@ body {
 
 /* footer height for thank you page */
 .content-wrap-tutorials {
-    padding-bottom: 122px;
+  padding-bottom: 122px;
 }
+
 /* Styling for individual navigation link items */
 .nav-link {
   margin: 0 0 0 60px;
@@ -401,8 +402,8 @@ h2 {
   font-family: "Alex Brush";
   position: relative;
   color: var(--headline-color);
-font-size: 28px;
-  
+  font-size: 28px;
+
 }
 
 .banner img.background-image {
@@ -582,11 +583,9 @@ font-size: 28px;
   font-weight: bold;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   padding: 20px;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.9) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: linear-gradient(to top,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 100%);
   color: #fff;
 }
 
@@ -605,10 +604,10 @@ font-size: 28px;
   opacity: 1;
 }
 
-.tuturial-content-description
-{
+.tuturial-content-description {
   background-color: var(--card-color);
 }
+
 .tutorial-card:not(:hover) .card-overlay,
 .tutorial-card:not(:hover) .tutorial-card-paragraph:before {
   opacity: 0;
@@ -651,18 +650,18 @@ font-size: 28px;
   max-width: 20%;
 }
 
-.tutorial-back-btn:hover 
-{
-  background-color:#40837A;
+.tutorial-back-btn:hover {
+  background-color: #40837A;
   transition-duration: 2s;
 }
 
-.contact-form button:hover{
-background-color:#40837A;
-transition-duration: 2s;
-color: var(--headline-color);
-border: 1px solid var(--headline-color);
+.contact-form button:hover {
+  background-color: #40837A;
+  transition-duration: 2s;
+  color: var(--headline-color);
+  border: 1px solid var(--headline-color);
 }
+
 /* container for tutorial content, video + description */
 .tutorial-content {
   margin: 0;
@@ -676,7 +675,7 @@ border: 1px solid var(--headline-color);
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   padding: 1mm;
-  
+
 }
 
 /* Desktop Navigation */
@@ -778,12 +777,13 @@ border: 1px solid var(--headline-color);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
 
 .conntainer-2 {
   margin-bottom: 10px;
 }
+
 .about-h2 {
   color: var(--background-color);
   font-size: 40px;
@@ -793,15 +793,16 @@ border: 1px solid var(--headline-color);
 }
 
 /*--------about---------*/
- .container-2 .image,
-  .container-2 .text {
-    width: 100%;
-    text-align: center;
-  }
+.container-2 .image,
+.container-2 .text {
+  width: 100%;
+  text-align: center;
+}
 
 .contact-form {
   padding-top: 50px;
 }
+
 .contact-form form {
   display: flex;
   flex-direction: column;
@@ -831,9 +832,11 @@ border: 1px solid var(--headline-color);
 .content-wrapper {
   transition: transform 0.3s ease;
 }
+
 .move-down {
   transform: translateY(120px);
 }
+
 .footer {
   padding-top: 20px;
   transition: transform 0.3s ease;
@@ -878,7 +881,7 @@ border: 1px solid var(--headline-color);
   font-weight: 500;
   position: relative;
   padding-top: 10px;
-  text-align:center;
+  text-align: center;
 }
 
 .footer-col h4::before {
@@ -890,8 +893,8 @@ border: 1px solid var(--headline-color);
   box-sizing: border-box;
   width: 50px;
   font-family: "Montserrat Alternates", sans-serif;
-left: 0;
-width: 100%;
+  left: 0;
+  width: 100%;
 }
 
 
@@ -913,7 +916,7 @@ width: 100%;
   margin: 0;
 }
 
-.ul.social-links{
+.ul.social-links {
   width: 100%;
   justify-content: space-around !important;
 }
@@ -922,10 +925,11 @@ width: 100%;
   margin-right: 10px;
 }
 
-.ul.social-links li{
+.ul.social-links li {
   margin: 0;
   padding: 0;
 }
+
 .footer-col ul li a:hover {
   color: var(--background-color);
   padding-left: 8px;
@@ -960,14 +964,16 @@ width: 100%;
   .landing-paragraph {
     font-size: 16px;
   }
+
   .container-2 {
-  flex-direction: column;
-padding: 20px;
+    flex-direction: column;
+    padding: 20px;
   }
-.footer-col {
-width: 100%;
-text-align: center;
-}
+
+  .footer-col {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* 1024px */
@@ -975,7 +981,7 @@ text-align: center;
   .landing-heade {
     font-size: 25px;
   }
-  
+
   .What-Is-Welness-Well-card {
     font-size: 18px;
   }
@@ -983,43 +989,49 @@ text-align: center;
   .tutorial-card-paragraph {
     font-size: 18px;
   }
- .tutorial-back-btn {
+
+  .tutorial-back-btn {
     max-width: 40%;
   }
+
   .wraper1-user .user-box {
     width: auto;
   }
-  .footer-col{
+
+  .footer-col {
     width: 100%;
   }
-  .row-footer{
-  display: flex;
-flex-direction: column;
-align-content: center;
+
+  .row-footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
   }
+
   .wraper1-user .user-box {
-    width:100%
+    width: 100%
   }
-  
+
   .container-2 .image img {
-  flex-direction: column;
-padding: 20px;
-  
-}
- 
-  
- .What-Is-Welness-Well-card {
-  display: flex;
-flex-wrap: wrap;
-}
-  .What-Is-Welness-Well-card img {
-    width:fit-content;
+    flex-direction: column;
+    padding: 20px;
+
   }
-  
+
+
+  .What-Is-Welness-Well-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .What-Is-Welness-Well-card img {
+    width: fit-content;
+  }
+
 }
 
 
-    
+
 /*decorative line break */
 .line-break {
   height: 4px;
@@ -1034,26 +1046,28 @@ flex-wrap: wrap;
 
   .content-wrap-tutorials {
     padding-bottom: 359px;
-}
+  }
+
   .tutorial-back-btn {
     max-width: 40%;
   }
-  
+
   .container-2 .image img {
-  flex-direction: column;
-padding: 20px;
-  
-}
-  
-  .footer-col{
+    flex-direction: column;
+    padding: 20px;
+
+  }
+
+  .footer-col {
     width: 100%;
     /* width: 50%; */
-/* padding: 0 50px; */
-font-family: "Montserrat Alternates", sans-serif;
-/* align-items: center; */
-/*display: flex;*/
-/*flex-direction: column;*/
+    /* padding: 0 50px; */
+    font-family: "Montserrat Alternates", sans-serif;
+    /* align-items: center; */
+    /*display: flex;*/
+    /*flex-direction: column;*/
   }
+
   .landing-header {
     font-size: 25px;
   }
@@ -1097,13 +1111,14 @@ font-family: "Montserrat Alternates", sans-serif;
   }
 }
 
-  
+
 /* 768px */
 @media (max-width: 768px) {
 
   .content-wrap-tutorials {
     padding-bottom: 122px;
-}
+  }
+
   main {
     margin: 50px 0;
   }
@@ -1111,9 +1126,10 @@ font-family: "Montserrat Alternates", sans-serif;
   .landing-header {
     font-size: 38px;
   }
-.landing-header-about{
+
+  .landing-header-about {
     font-size: 38px
-}
+  }
 
   .landing-graphic img {
     width: 100%;
@@ -1183,15 +1199,17 @@ font-family: "Montserrat Alternates", sans-serif;
     flex-basis: 100%;
     /* make inputs full width at 768px and below */
   }
-  
+
   .wraper1-user .user-box {
-    width:100%;
+    width: 100%;
   }
+
   .container-2 {
     flex-direction: column;
     padding: 20px
+  }
 }
-}
+
 @media (max-width: 767px) {
   .wraper1-user .user-box {
     width: 100%;
@@ -1199,19 +1217,20 @@ font-family: "Montserrat Alternates", sans-serif;
     margin-left: auto;
     margin-right: auto;
   }
-  
-  .container-2 .image img {
-  flex-direction: column;
-padding: 20px;
-  
-}
 
-.content-wrap-tutorials {
+  .container-2 .image img {
+    flex-direction: column;
+    padding: 20px;
+
+  }
+
+  .content-wrap-tutorials {
     padding-bottom: 122px;
-}
+  }
 }
 
 @media (max-width: 767px) {
+
   /*.footer-col {
     width: 100%;
     margin-bottom: 30px;
@@ -1222,10 +1241,10 @@ padding: 20px;
   }
 
   .container-2 .image img {
-  flex-direction: column;
-padding: 20px;
-  
-}
+    flex-direction: column;
+    padding: 20px;
+
+  }
 
   .footer ul {
     display: flex;
@@ -1237,16 +1256,19 @@ padding: 20px;
 
 /* 625px */
 @media (max-width: 625px) {
+
   /* stacks landing content vertically on smaller screens */
   .landing-cta-wrapper {
     flex-direction: column;
     align-items: center;
   }
-.container-2 .image img {
-  flex-direction: column;
-padding: 20px;
-  
-}
+
+  .container-2 .image img {
+    flex-direction: column;
+    padding: 20px;
+
+  }
+
   .learn-more {
     margin-left: 0;
     /* removes left margin from cta when stacked on smaller screens */
@@ -1259,17 +1281,19 @@ padding: 20px;
   #hamburger-icon {
     display: block;
   }
- .tutorial-back-btn {
+
+  .tutorial-back-btn {
     max-width: 40%;
   }
 
   .content-wrap-tutorials {
     padding-bottom: 122px;
-}
+  }
 }
 
 /* 390px */
 @media (max-width: 390px) {
+
   /* resize nav elements on smaller screens */
   .nav-link {
     margin: 4px;
@@ -1279,21 +1303,14 @@ padding: 20px;
   .logo {
     font-size: 18px;
   }
-  
+
   .container-2 .image img {
-  flex-direction: column;
-padding: 20px;
-  
-}
+    flex-direction: column;
+    padding: 20px;
 
-.content-wrap-tutorials {
+  }
+
+  .content-wrap-tutorials {
     padding-bottom: 122px;
+  }
 }
-}
-
-
-
- 
-
-
-

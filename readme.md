@@ -305,6 +305,46 @@ The Code Institute modules/lessons aided my learning and many of the concepts le
 
 ## Testing
 
+| Test                 | Action                                                                                   | Success Criteria                                           |
+|----------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| Homepage loads       | Navigate to website URL                                                                 | Page loads < 3s, no errors                                 |
+| Links                | Click on each Navigation link, CTA, button, logo, footer link, video                     | Correct page is loaded/correct action performed            |
+| Form validation      | Enter data into each input field, ensure only valid data is accepted                     | Form doesn't submit until correct data entered, error message shown |
+| Form submission      | Complete each form and submit                                                           | Form successfully submits, feedback page shown             |
+| Responsiveness       | Resize viewport window from 320px upwards with Chrome Dev Tools. Use Responsive Design Checker to test various mobile, tablet and large screen sizes | Page layout remains intact and adapts to screen size as intended |
+| Accessibility        | Navigate the site with keyboard and screen reader                                         | Tab index works in correct order, website is navigable, content/aria-labels read aloud |
+| Pages speed insights           | Perform pages speed insights test on each page                                                     | Score of > 90 on Performance, Accessibility, Best Practices, SEO |
+| Browser compatibility | Test links, layout, appearance, functionality and above Tests on Chrome, Safari, Firefox and Edge | Website looks and functions as intended and passes all tests above |
+
+
+
+
+
+I am really happy with the site perfomrnace on desktop with all ratings over 90%
+
+![Speed Test Desktop](documentation/speed-test-after.png)
+
+
+I used pages speed insights to help detirime the speed of my site and to solve with any issues see
+I had issues with the mobile version of the site where so I compressed them and that help with page performance by 10%! There is still work that needs to be done on the mobile version of the site but overall I am happy. 
+
+
+![Speed Test Mobile](documentation/spped-test-mobile.png)
+
+
+![Speed Test Mobile After](documentation/speed-test-mobile-after.png)
+
+
+
+I also  used Nu Html Checker to validate all pages, they all came up  clear see here 
+
+
+
+
+
+
+
+
 
 
 ## Contributing
@@ -316,31 +356,45 @@ Contributions to Wellness Well are welcome! If you have any suggestions, improve
 Wellness Well is open source and released under the [MIT License](LICENSE).
 
 ## Images & Content
----
-### Credits 
+
 ### Images 
 
 Illustrations: Dribble
-- https://dribbble.com/shots/16295497-Avatars-for-HR-department/attachments/8172168?mode=media Creator:Laura Reen
-- https://dribbble.com/shots/15429676-Vegetarian-woman Creator: Ailey Daily  
-- https://dribbble.com/shots/19437410-It-s-Cooking-Time Creator: Unini
-- https://dribbble.com/shots/19795319-Cooking-Fruit-Cakes Creator: Shakuro Graphics
-- https://dribbble.com/shots/19707211-Keep-calm-flat-illustration Creator: Boyko
-- https://dribbble.com/shots/15468329-Mental-problem-Stressed-employee Creator: KSENIIA FAST
-- https://dribbble.com/shots/6157481-Picnic Creator: Cami
-- https://dribbble.com/shots/15689216-Yoga Creator: Felic Art
-- https://dribbble.com/shots/8719823-Young-man-meditating Creator: Kit8
-- https://dribbble.com/shots/19887561-Yoga Creator:Felic Illustration
-- https://dribbble.com/shots/19868059-Fitness Creator: Felic Illustration
-- https://dribbble.com/shots/20067747-Team-work Creator: Lana Marandina
+- [Laura Reen](https://dribbble.com/shots/16295497-Avatars-for-HR-department/attachments/8172168?mode=media) (Creator: Laura Reen)
+- [Ailey Daily](https://dribbble.com/shots/15429676-Vegetarian-woman) (Creator: Ailey Daily)
+- [Unini](https://dribbble.com/shots/19437410-It-s-Cooking-Time) (Creator: Unini)
+- [Shakuro Graphics](https://dribbble.com/shots/19795319-Cooking-Fruit-Cakes) (Creator: Shakuro Graphics)
+- [Boyko](https://dribbble.com/shots/19707211-Keep-calm-flat-illustration) (Creator: Boyko)
+- [KSENIIA FAST](https://dribbble.com/shots/15468329-Mental-problem-Stressed-employee) (Creator: KSENIIA FAST)
+- [Cami](https://dribbble.com/shots/6157481-Picnic) (Creator: Cami)
+- [Felic Art](https://dribbble.com/shots/15689216-Yoga) (Creator: Felic Art)
+- [Kit8](https://dribbble.com/shots/8719823-Young-man-meditating) (Creator: Kit8)
+- [Felic Illustration](https://dribbble.com/shots/19887561-Yoga) (Creator: Felic Illustration)
+- [Felic Illustration](https://dribbble.com/shots/19868059-Fitness) (Creator: Felic Illustration)
+- [Lana Marandina](https://dribbble.com/shots/20067747-Team-work) (Creator: Lana Marandina)
+
 
 ### Video Content
-Yoga Exercise:
 
-Meditation Exercise :
+All video contnet was soucred on Youtube bellow is a list of all the videos used in thi proect.about-h2. Channle name of each vidoe will bing you to he specefic vidoe used in this project.
 
-Cooking:
+- [Walk In My Shoes](https://www.youtube.com/watch?v=gvU5pmNyP5k) (Channel: Walk In My Shoes)
+- [Dr. Nunez - Living Health](https://www.youtube.com/watch?v=PZG5NnP8khk) (Channel: Dr. Nunez - Living Health)
+- [Harshita's Kitchen](https://www.youtube.com/watch?v=4STUMnTxcsA) (Channel: Harshita's Kitchen)
+- [Clean & Delicious](https://www.youtube.com/watch?v=jwWpTAXu-Sg) (Channel: Clean & Delicious)
+- [Yoga With Adriene](https://www.youtube.com/watch?v=b1H3xO3x_Js) (Channel: Yoga With Adriene)
+- [Jeff Nippard](https://www.youtube.com/watch?v=eMjyvIQbn9M) (Channel: Jeff Nippard)
+- [TEDx Talks](https://www.youtube.com/watch?v=2-8ams9yG98) (Channel: TEDx Talks)
+- [Headspace](https://www.youtube.com/watch?v=pDm_na_Blq8) (Channel: Headspace)
+- [Howcast](https://www.youtube.com/watch?v=NTGmtz7Gz_8) (Channel: Howcast)
 
-Fitness
 
 Thank you for choosing Wellness Well! We hope you find the resources and information on our website helpful in your journey towards a healthier and more fulfilling lifestyle. If you have any questions or need further assistance, please don't hesitate to contact us.
+
+
+
+
+
+
+
+
